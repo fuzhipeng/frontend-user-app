@@ -84,6 +84,32 @@
           </div>
         </div>
 
+        <!-- 操作流程说明 -->
+        <div class="workflow-section">
+          <h2>{{ $t('workflow.title') }}</h2>
+          <p class="workflow-subtitle">{{ $t('workflow.subtitle') }}</p>
+          
+          <div class="workflow-steps">
+            <div class="workflow-step">
+              <div class="step-number">1</div>
+              <h3>{{ $t('workflow.steps.upload.title') }}</h3>
+              <p>{{ $t('workflow.steps.upload.desc') }}</p>
+            </div>
+            
+            <div class="workflow-step">
+              <div class="step-number">2</div>
+              <h3>{{ $t('workflow.steps.analyze.title') }}</h3>
+              <p>{{ $t('workflow.steps.analyze.desc') }}</p>
+            </div>
+            
+            <div class="workflow-step">
+              <div class="step-number">3</div>
+              <h3>{{ $t('workflow.steps.download.title') }}</h3>
+              <p>{{ $t('workflow.steps.download.desc') }}</p>
+            </div>
+          </div>
+        </div>
+
         <!-- 功能特点展示 -->
         <div id="features" class="features-section">
           <h2>{{ $t('features.title') }}</h2>
@@ -751,8 +777,8 @@ const startConvert = async () => {
       formData.append('userId', userStore.user.id)
     }
       // 发送POST请求上传文件
-      console.log('正在调用上传API:', `${apiBaseUrl.value}/api/file/uploadData`)
-      const response = await axios.post(`${apiBaseUrl.value}/api/file/uploadData`, formData, {
+      console.log('正在调用上传API:', `${apiBaseUrl.value}/api/file/uploadUserData`)
+      const response = await axios.post(`${apiBaseUrl.value}/api/file/uploadUserData`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
@@ -1748,5 +1774,100 @@ watch(() => userStore.isAuthenticated, (newValue) => {
   color: var(--el-color-primary);
   display: flex;
   align-items: center;
+}
+
+/* 操作流程说明样式 */
+.workflow-section {
+  text-align: center;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+.workflow-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  color: #e0e0e0;
+}
+
+.workflow-subtitle {
+  color: #888;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.workflow-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  position: relative;
+}
+
+.workflow-step {
+  background-color: #2d2d2d;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.workflow-step:hover {
+  transform: translateY(-5px);
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  background-color: #d4a055;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+}
+
+.workflow-step h3 {
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.workflow-step p {
+  color: #888;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* 添加连接线 */
+.workflow-steps::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 15%;
+  right: 15%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d4a055, transparent);
+  z-index: 0;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .workflow-steps {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .workflow-steps::before {
+    display: none;
+  }
+  
+  .workflow-step {
+    padding: 1.5rem 1rem;
+  }
 }
 </style> 

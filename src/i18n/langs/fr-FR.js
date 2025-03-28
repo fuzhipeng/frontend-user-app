@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Générateur de Rapports d\'Analyse de Données IA',
+    home: 'Générateur de Cartes de Visite IA',
     features: 'Fonctionnalités',
     faq: 'FAQ',
     pricing: 'Tarifs',
@@ -8,147 +8,163 @@ export default {
     points: 'Points: {points}'
   },
   hero: {
-    title: 'Générateur de Rapports d\'Analyse de Données IA, Rendez les Insights Visibles',
-    subtitle: '✨ Analyse Rapide des Données, Rapports Professionnels, Support à la Décision ✨',
+    title: 'Générateur de Cartes de Visite IA, Rendez Votre Carte Plus Professionnelle',
+    subtitle: '✨ Génération en Un Clic, Design Élégant, Multi-Scénario ✨',
     tags: {
-      free: 'Analyse Intelligente',
-      ai: 'Rapports Professionnels',
-      noRegister: 'Génération en Un Clic',
-      unlimited: 'Insights de Données'
+      free: 'Gratuit',
+      ai: 'Design Intelligent IA',
+      noRegister: 'Sans Inscription',
+      unlimited: 'Génération Illimitée'
     }
   },
   upload: {
-    title: 'Déposez les fichiers ici ou cliquez pour télécharger',
-    subtitle: 'Supporte PDF, Word, TXT et plus',
+    title: 'Glissez-déposez des fichiers ici ou cliquez pour télécharger',
+    subtitle: 'Prend en charge PDF, Word, TXT et autres formats',
     button: 'Sélectionner un fichier',
-    converting: 'Analyse en cours...',
-    success: 'Analyse terminée',
-    error: 'Échec de l\'analyse',
+    converting: 'Génération en cours...',
+    success: 'Génération terminée',
+    error: 'Erreur de génération',
     retry: 'Réessayer',
     cancel: 'Annuler',
-    fileSizeExceeded: 'La taille du fichier dépasse la limite. Mettez à niveau',
-    needLogin: 'Connectez-vous d\'abord pour télécharger des fichiers'
+    fileSizeExceeded: 'La taille du fichier dépasse la limite. Mise à niveau requise',
+    needLogin: 'Veuillez vous connecter pour télécharger des fichiers'
   },
   preview: {
-    title: 'Aperçu du Rapport d\'Analyse',
+    title: 'Aperçu de la Carte de Visite',
     download: 'Télécharger HTML',
     copy: 'Copier HTML',
     copySuccess: 'Copié avec succès',
-    copyError: 'Échec de la copie',
+    copyError: 'Erreur de copie',
     noContent: 'Aucun contenu'
   },
   features: {
-    title: 'Fonctionnalités Principales du Générateur de Rapports d\'Analyse de Données IA',
-    subtitle: 'Expérience de Génération de Rapports d\'Analyse IA de Nouvelle Génération - Analyse Intelligente, Rapports Professionnels, Insights de Données',
+    title: 'Fonctionnalités Principales du Générateur de Cartes de Visite IA',
+    subtitle: 'Découvrez la prochaine génération de génération de cartes de visite IA - Design Intelligent, Aspect Professionnel, Multi-Scénario',
     cards: {
       free: {
         title: 'Gratuit',
-        desc: 'Générateur de rapports d\'analyse de données IA complètement gratuit, sans limite d\'utilisation, sans inscription requise.'
+        desc: 'Générateur de cartes de visite IA entièrement gratuit, sans limite d\'utilisation, sans inscription.'
       },
       quality: {
-        title: 'Qualité Supérieure',
-        desc: 'Basé sur Claude IA, garantissant la meilleure qualité des rapports d\'analyse.'
+        title: 'Design Professionnel',
+        desc: 'Basé sur Claude IA, garantit un design de carte professionnel et esthétique.'
       },
       smart: {
-        title: 'Analyse Intelligente',
-        desc: 'Identification précise de la structure des données, préservation du format et du style originaux.'
+        title: 'Génération Intelligente',
+        desc: 'Reconnaissance intelligente des informations personnelles, génération automatique de beaux designs de cartes.'
       },
       privacy: {
-        title: 'Confidentialité Renforcée',
-        desc: 'Technologie de cryptage avancée pour garantir la sécurité des données, suppression immédiate après traitement.'
+        title: 'Protection de la Vie Privée',
+        desc: 'Utilisation de technologies de cryptage avancées pour garantir la sécurité de vos informations personnelles, suppression immédiate après traitement.'
       },
       understanding: {
-        title: 'Compréhension Avancée',
-        desc: 'Modèle d\'apprentissage profond comprenant le sens et les relations contextuelles pour extraire des informations vraiment précieuses.'
+        title: 'Adaptation aux Scénarios',
+        desc: 'Support pour divers scénarios d\'utilisation, ajustement automatique du style de design pour différents cas.'
       },
       advanced: {
-        title: 'Qualité de Pointe',
-        desc: 'Basé sur les dernières technologies IA, offrant une qualité d\'analyse leader du secteur, garantissant la précision.'
+        title: 'Personnalisation Avancée',
+        desc: 'Fournit des modèles et des styles riches, support pour la personnalisation pour des cartes uniques.'
       }
     },
     examples: {
-      title: 'Galerie de Rapports',
-      subtitle: 'Exemples de Rapports d\'Analyse de Données Professionnels',
+      title: 'Galerie de Cartes',
+      subtitle: 'Exemples de Designs Professionnels de Cartes de Visite',
       tag: 'Exemple'
     }
   },
   testimonials: {
-    title: 'Ce que disent les utilisateurs de textAnalytica AI',
-    subtitle: 'Découvrez les avis d\'utilisateurs de différents secteurs sur notre outil d\'analyse de données IA',
+    title: 'Ce que Disent les Utilisateurs du Générateur de Cartes de Visite IA',
+    subtitle: 'Découvrez comment les utilisateurs de différentes industries évaluent notre outil de génération de cartes de visite IA',
     list: [
       {
         name: 'Zhang Ming',
-        title: 'Analyste de données | Entreprise technologique',
-        text: 'Les capacités d\'analyse intelligente de textAnalytica AI sont impressionnantes. Il comprend rapidement les structures de données complexes et génère des rapports d\'analyse professionnels. J\'apprécie particulièrement son support multilingue, qui me permet de traiter simultanément des données en chinois et en anglais, améliorant considérablement mon efficacité au travail.',
+        title: 'Freelance',
+        text: 'Les capacités de design du générateur de cartes de visite IA sont impressionnantes. Il génère rapidement des cartes personnelles professionnelles avec un style de design minimaliste moderne. J\'apprécie particulièrement sa fonction d\'adaptation aux scénarios, qui peut générer différents styles de cartes pour différents cas.',
         avatar: ''
       },
       {
         name: 'Li Hua',
-        title: 'Responsable d\'études de marché',
-        text: 'En tant que responsable d\'études de marché, je dois fréquemment analyser de grandes quantités de données de marché. textAnalytica AI maintient non seulement le format des données originales mais extrait également intelligemment les informations clés pour générer des rapports d\'analyse clairs. Ses capacités d\'analyse IA rendent les insights de données simples et intuitifs.',
+        title: 'Entrepreneur',
+        text: 'En tant qu\'entrepreneur, j\'ai besoin d\'un outil qui peut générer rapidement des cartes de visite professionnelles. Le générateur de cartes de visite IA a non seulement un beau design, mais extrait également intelligemment des informations importantes pour créer des mises en page claires de cartes. Ses capacités de design IA rendent la création de cartes simple et efficace.',
         avatar: ''
       },
       {
-        name: 'Wang Fang',
-        title: 'Directrice financière',
-        text: 'Lors du traitement des états financiers, la fonction de préservation du format de textAnalytica AI est excellente. Il reconnaît avec précision les formats complexes comme les tableaux et les graphiques, générant des rapports d\'analyse à la fois professionnels et esthétiques. Les mesures de sécurité des données me rassurent également.',
+        name: 'Wang Fan',
+        title: 'Designer',
+        text: 'Lors du travail avec les demandes de cartes des clients, le design des modèles du générateur de cartes de visite IA est excellent. Il comprend précisément les exigences de design et génère des cartes à la fois professionnelles et belles. La protection de la vie privée me donne également confiance.',
         avatar: ''
       },
       {
-        name: 'Chen Qiang',
-        title: 'Chef de produit',
-        text: 'textAnalytica AI offre une expérience utilisateur très conviviale. Après le téléchargement des fichiers, l\'IA analyse rapidement et génère des rapports, rendant l\'ensemble du processus fluide et naturel. Les effets de visualisation des rapports sont également excellents, rendant la présentation des données plus vivante.',
+        name: 'Chen Qian',
+        title: 'Responsable Commercial',
+        text: 'La facilité d\'utilisation du générateur de cartes de visite IA est très bonne. Après le téléchargement des informations, l\'IA génère rapidement les cartes, rendant tout le processus fluide et naturel. Les effets de design des cartes sont également excellents et rendent l\'image personnelle plus professionnelle.',
         avatar: ''
       },
       {
         name: 'Liu Ting',
-        title: 'Assistante de recherche',
-        text: 'Lors du traitement des données de recherche académique, les capacités d\'analyse intelligente de textAnalytica AI sont d\'une grande aide. Il comprend avec précision la terminologie professionnelle, extrait les informations clés et génère des rapports de recherche bien structurés. La fonction de support multilingue me permet également de traiter facilement les données de recherche internationales.',
+        title: 'Étudiante',
+        text: 'Le générateur de cartes de visite IA a été d\'une grande aide lors de la préparation de mon CV pour les stages. Il extrait intelligemment mes informations éducatives et mes compétences pour générer des designs de cartes adaptés à une étudiante. La multi-fonctionnalité me permet également d\'utiliser différents styles de cartes pour différents cas.',
         avatar: ''
       },
       {
         name: 'Zhao Yang',
-        title: 'Directeur des opérations',
-        text: 'Les mesures de sécurité des données de textAnalytica AI me donnent une grande confiance. Il utilise une technologie de cryptage avancée pour assurer la sécurité des données. De plus, ses capacités d\'analyse IA sont puissantes, générant rapidement des rapports d\'analyse opérationnelle professionnels pour nous aider à prendre de meilleures décisions.',
+        title: 'PDG',
+        text: 'Les mesures de protection de la vie privée du générateur de cartes de visite IA me donnent beaucoup de confiance. Il utilise des technologies de cryptage avancées pour garantir la sécurité des informations. Parallèlement, ses capacités de design IA sont puissantes et génèrent rapidement des cartes de visite professionnelles, m\'aidant à construire une meilleure marque personnelle.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Questions Fréquentes',
-    subtitle: 'Questions Fréquentes sur le Générateur de Rapports d\'Analyse de Données IA',
-    emailName: '758771757',
-    emailDomain: 'qq.com',
+    subtitle: 'Questions fréquentes sur le générateur de cartes de visite IA',
     questions: [
       {
-        q: 'Qu\'est-ce que le Générateur de Rapports d\'Analyse de Données IA ?',
-        a: 'Le Générateur de Rapports d\'Analyse de Données IA est un outil intelligent qui analyse automatiquement les données et génère des rapports d\'analyse professionnels. Utilisant des technologies IA avancées pour comprendre le contenu des données, extraire des informations importantes et présenter les résultats d\'analyse de manière claire et professionnelle.'
+        q: 'Qu\'est-ce que le générateur de cartes de visite IA?',
+        a: 'Le générateur de cartes de visite IA est un outil intelligent qui analyse automatiquement vos informations personnelles et génère des cartes de visite professionnelles. Il utilise des technologies IA avancées pour comprendre le contenu des informations, extraire des éléments clés et présenter le design de la carte de manière claire et professionnelle.'
       },
       {
-        q: 'Quels formats de fichiers de données sont supportés ?',
-        a: 'Nous supportons divers formats courants de fichiers de données, notamment PDF, documents Word (DOC/DOCX), fichiers texte (TXT), etc. Le système peut traiter des rapports financiers, des données de ventes, des rapports d\'études de marché et d\'autres types de données de différents domaines, permettant une analyse intelligente et la génération de rapports selon les caractéristiques des données.'
+        q: 'Quels types de fichiers d\'information sont pris en charge?',
+        a: 'Nous prenons en charge plusieurs formats courants de fichiers d\'information, notamment PDF, documents Word (DOC/DOCX), fichiers texte (TXT), etc. Le système peut traiter divers fichiers contenant des informations personnelles, notamment des CV, des profils personnels, etc., et peut effectuer un design intelligent et une génération de cartes basés sur les caractéristiques des informations.'
       },
       {
-        q: 'Les données sont-elles sécurisées ? Comment la confidentialité est-elle protégée ?',
-        a: 'Nous utilisons une technologie de cryptage avancée pour protéger les données. Les données téléchargées sont utilisées uniquement pour le traitement d\'analyse et supprimées immédiatement du serveur une fois terminé. Nous ne stockons pas les données originales. Tout le processus se déroule dans un environnement sécurisé, garantissant le plus haut niveau de protection de la confidentialité des données.'
+        q: 'Mes informations personnelles sont-elles sécurisées? Comment la vie privée est-elle garantie?',
+        a: 'Nous utilisons des technologies de cryptage avancées pour protéger vos informations personnelles. Toutes les informations téléchargées sont utilisées uniquement pour la génération de cartes et sont supprimées immédiatement du serveur après complétion. Nous ne stockons aucune information originale. Tout le processus est effectué dans un environnement sécurisé pour garantir le plus haut niveau de protection de votre vie privée.'
       },
       {
-        q: 'Puis-je personnaliser ou éditer les rapports générés ?',
-        a: 'Oui, les rapports générés par le système peuvent être téléchargés au format HTML et édités et personnalisés selon vos besoins. À l\'avenir, nous ajouterons plus d\'options de personnalisation, notamment le style des rapports, les types de graphiques, les dimensions d\'analyse, etc., pour rendre les rapports plus personnalisés et pratiques.'
+        q: 'Puis-je personnaliser ou modifier les cartes générées?',
+        a: 'Oui, les cartes générées par le système peuvent être téléchargées au format HTML et modifiées et personnalisées selon vos besoins. Nous fournissons des modèles et des options de style riches, notamment la mise en page, les couleurs, les polices, etc., pour rendre vos cartes plus personnalisées et professionnelles.'
       },
       {
-        q: 'Ce service est-il payant ? Y a-t-il des limites d\'utilisation ?',
-        a: 'Nous offrons un service de base gratuit, permettant aux nouveaux utilisateurs d\'essayer gratuitement la génération complète de 3 rapports d\'analyse de données. Cela permet de faire l\'expérience pleine des puissantes fonctionnalités d\'analyse IA. Pour les utilisateurs nécessitant un accès plus fréquent, nous proposons un plan premium précieux offrant une analyse illimitée et des fonctionnalités avancées supplémentaires.'
+        q: 'Ce service est-il payant? Y a-t-il des limites d\'utilisation?',
+        a: 'Nous proposons un service de base gratuit qui permet aux nouveaux utilisateurs d\'essayer gratuitement la génération complète de 3 cartes personnelles, vous donnant l\'occasion d\'expérimenter complètement nos puissantes capacités de design IA. Pour les utilisateurs ayant besoin d\'un accès plus fréquent, nous proposons un plan premium précieux avec génération illimitée et fonctionnalités avancées supplémentaires.'
       },
       {
-        q: 'Supporte-t-il l\'analyse de données multilingue ?',
-        a: 'Oui, notre système IA peut reconnaître et traiter des données dans plusieurs langues, notamment l\'anglais, le chinois et d\'autres langues principales. Quelle que soit la langue des données, nous pouvons fournir un service de haute qualité d\'analyse de données et de génération de rapports.'
+        q: 'Prend-il en charge la multi-fonctionnalité?',
+        a: 'Oui, notre système IA peut ajuster automatiquement les styles de design des cartes selon différentes exigences de scénarios, notamment des styles commerciaux, académiques, créatifs et autres. Quel que soit le cas pour lequel vous souhaitez l\'utiliser, nous pouvons fournir des solutions de design de cartes appropriées.'
       }
     ]
   },
   system: {
     languageChanged: 'Langue changée en {lang}',
     loading: 'Chargement...'
+  },
+  workflow: {
+    title: 'Comment utiliser le Générateur de Cartes de Visite IA',
+    subtitle: 'Créez de belles cartes de visite en 3 étapes simples',
+    steps: {
+      upload: {
+        title: 'Téléchargez votre fichier',
+        desc: 'Téléchargez simplement votre fichier contenant vos informations personnelles'
+      },
+      analyze: {
+        title: 'Analyse IA',
+        desc: "L'IA extrait automatiquement les informations clés et génère une belle carte"
+      },
+      download: {
+        title: 'Télécharger et Partager',
+        desc: 'Téléchargez votre belle carte de visite et partagez-la partout'
+      }
+    }
   },
   login: {
     title: 'Se connecter à textAnalytica AI',

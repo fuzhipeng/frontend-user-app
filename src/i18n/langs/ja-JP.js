@@ -7,6 +7,27 @@ export default {
     login: 'ログイン',
     points: 'ポイント: {points}'
   },
+  system: {
+    // ... existing code ...
+  },
+  workflow: {
+    title: 'AIビジネスカード生成ツールの使い方',
+    subtitle: '3つの簡単なステップで美しい名刺を作成',
+    steps: {
+      upload: {
+        title: 'ファイルをアップロード',
+        desc: '個人情報を含むファイルをアップロードするだけで開始できます'
+      },
+      analyze: {
+        title: 'AI分析',
+        desc: 'AIが自動的に重要な情報を抽出し、美しいカードを生成します'
+      },
+      download: {
+        title: 'ダウンロードと共有',
+        desc: '美しい名刺をダウンロードして、どこでも共有できます'
+      }
+    }
+  },
   hero: {
     title: 'スマートデータ分析レポート生成器、データインサイトを一目で把握',
     subtitle: '✨ 迅速なデータ分析、プロフェッショナルなレポート、意思決定支援 ✨',

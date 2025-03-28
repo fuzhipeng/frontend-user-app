@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Generador de Informes de Análisis de Datos IA',
+    home: 'Generador de Tarjetas de Presentación con IA',
     features: 'Características',
     faq: 'Preguntas Frecuentes',
     pricing: 'Precios',
@@ -8,29 +8,29 @@ export default {
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'Generador de Informes de Análisis de Datos IA, Haga Visibles los Insights',
-    subtitle: '✨ Análisis Rápido de Datos, Informes Profesionales, Soporte para Decisiones ✨',
+    title: 'Generador de Tarjetas de Presentación con IA, Haz Tu Tarjeta Más Profesional',
+    subtitle: '✨ Generación con Un Clic, Diseño Hermoso, Multi-Escenario ✨',
     tags: {
-      free: 'Análisis Inteligente',
-      ai: 'Informes Profesionales',
-      noRegister: 'Generación en Un Clic',
-      unlimited: 'Insights de Datos'
+      free: 'Gratis',
+      ai: 'Diseño Inteligente con IA',
+      noRegister: 'Sin Registro',
+      unlimited: 'Generación Ilimitada'
     }
   },
   upload: {
-    title: 'Suelte archivos aquí o haga clic para subir',
-    subtitle: 'Soporta PDF, Word, TXT y más',
+    title: 'Arrastra archivos aquí o haz clic para subir',
+    subtitle: 'Soporta PDF, Word, TXT y otros formatos',
     button: 'Seleccionar archivo',
-    converting: 'Analizando...',
-    success: 'Análisis completado',
-    error: 'Error en el análisis',
+    converting: 'Generando...',
+    success: 'Generación completada',
+    error: 'Error de generación',
     retry: 'Reintentar',
     cancel: 'Cancelar',
-    fileSizeExceeded: 'El tamaño del archivo excede el límite. Actualice',
-    needLogin: 'Por favor, inicie sesión para subir archivos'
+    fileSizeExceeded: 'El tamaño del archivo excede el límite. Se requiere actualización',
+    needLogin: 'Por favor, inicia sesión para subir archivos'
   },
   preview: {
-    title: 'Vista previa del Informe de Análisis',
+    title: 'Vista Previa de Tarjeta de Presentación',
     download: 'Descargar HTML',
     copy: 'Copiar HTML',
     copySuccess: 'Copiado con éxito',
@@ -38,117 +38,135 @@ export default {
     noContent: 'Sin contenido'
   },
   features: {
-    title: 'Características Principales del Generador de Informes de Análisis de Datos IA',
-    subtitle: 'Experiencia de Generación de Informes de Análisis de Datos IA de Próxima Generación - Análisis Inteligente, Informes Profesionales, Insights de Datos',
+    title: 'Características Principales del Generador de Tarjetas de Presentación con IA',
+    subtitle: 'Experimenta la próxima generación de generación de tarjetas de presentación con IA - Diseño Inteligente, Aspecto Profesional, Multi-Escenario',
     cards: {
       free: {
-        title: 'Gratuito',
-        desc: 'Generador de informes de análisis de datos IA completamente gratuito, sin límites de uso, sin registro requerido.'
+        title: 'Gratis',
+        desc: 'Generador de tarjetas de presentación con IA completamente gratuito, sin límites de uso, sin registro.'
       },
       quality: {
-        title: 'Máxima Calidad',
-        desc: 'Basado en Claude IA, garantizando la más alta calidad en los informes de análisis.'
+        title: 'Diseño Profesional',
+        desc: 'Basado en Claude IA, garantiza un diseño de tarjeta profesional y estético.'
       },
       smart: {
-        title: 'Análisis Inteligente',
-        desc: 'Identificación precisa de la estructura de datos, preservando el formato y estilo original.'
+        title: 'Generación Inteligente',
+        desc: 'Reconocimiento inteligente de información personal, generación automática de hermosos diseños de tarjetas.'
       },
       privacy: {
-        title: 'Privacidad Reforzada',
-        desc: 'Tecnología de encriptación avanzada para garantizar la seguridad de los datos, eliminación inmediata después del procesamiento.'
+        title: 'Protección de Privacidad',
+        desc: 'Uso de tecnologías avanzadas de encriptación para garantizar la seguridad de tu información personal, eliminación inmediata después del procesamiento.'
       },
       understanding: {
-        title: 'Comprensión Avanzada',
-        desc: 'Modelo de aprendizaje profundo que comprende significado y relaciones contextuales para extraer información verdaderamente valiosa.'
+        title: 'Adaptación a Escenarios',
+        desc: 'Soporte para diversos escenarios de uso, ajuste automático del estilo de diseño para diferentes casos.'
       },
       advanced: {
-        title: 'Calidad de Vanguardia',
-        desc: 'Basado en las últimas tecnologías IA, ofreciendo calidad de análisis líder en la industria, garantizando precisión.'
+        title: 'Personalización Avanzada',
+        desc: 'Proporciona ricas plantillas y estilos, soporte para personalización para tarjetas únicas.'
       }
     },
     examples: {
-      title: 'Galería de Informes',
-      subtitle: 'Ejemplos de Informes de Análisis de Datos Profesionales',
+      title: 'Galería de Tarjetas',
+      subtitle: 'Ejemplos de Diseños Profesionales de Tarjetas de Presentación',
       tag: 'Ejemplo'
     }
   },
   testimonials: {
-    title: 'Lo que dicen los usuarios sobre textAnalytica AI',
-    subtitle: 'Escuche a usuarios de diferentes industrias sobre nuestra herramienta de análisis de datos con IA',
+    title: 'Lo que Dicen los Usuarios sobre el Generador de Tarjetas de Presentación con IA',
+    subtitle: 'Escucha cómo los usuarios de diferentes industrias evalúan nuestra herramienta de generación de tarjetas de presentación con IA',
     list: [
       {
         name: 'Zhang Ming',
-        title: 'Analista de datos | Empresa tecnológica',
-        text: 'Las capacidades de análisis inteligente de textAnalytica AI son impresionantes. Comprende rápidamente estructuras de datos complejas y genera informes de análisis profesionales. Aprecio especialmente su soporte multilingüe, que me permite procesar datos en chino e inglés simultáneamente, mejorando significativamente mi eficiencia laboral.',
+        title: 'Freelancer',
+        text: 'Las capacidades de diseño del generador de tarjetas de presentación con IA son impresionantes. Genera rápidamente tarjetas personales profesionales con un estilo de diseño minimalista moderno. Me gusta especialmente su función de adaptación a escenarios, que puede generar varios estilos de tarjetas para diferentes casos.',
         avatar: ''
       },
       {
         name: 'Li Hua',
-        title: 'Gerente de investigación de mercado',
-        text: 'Como gerente de investigación de mercado, frecuentemente necesito analizar grandes cantidades de datos de mercado. textAnalytica AI no solo mantiene el formato de los datos originales sino que también extrae inteligentemente información clave para generar informes de análisis claros. Sus capacidades de análisis de IA hacen que los insights de datos sean simples e intuitivos.',
+        title: 'Emprendedor',
+        text: 'Como emprendedor, necesito una herramienta que pueda generar rápidamente tarjetas de presentación profesionales. El generador de tarjetas de presentación con IA no solo tiene un hermoso diseño, sino que también extrae inteligentemente información importante para crear diseños claros de tarjetas. Sus capacidades de diseño con IA hacen que la creación de tarjetas sea simple y eficiente.',
         avatar: ''
       },
       {
-        name: 'Wang Fang',
-        title: 'Directora financiera',
-        text: 'Al procesar estados financieros, la función de preservación de formato de textAnalytica AI es excelente. Reconoce con precisión formatos complejos como tablas y gráficos, generando informes de análisis tanto profesionales como estéticamente atractivos. Las medidas de seguridad de datos también me dan tranquilidad.',
+        name: 'Wang Fan',
+        title: 'Diseñador',
+        text: 'Al trabajar con solicitudes de tarjetas de clientes, el diseño de plantillas del generador de tarjetas de presentación con IA es excelente. Comprende precisamente los requisitos de diseño y genera tarjetas tanto profesionales como hermosas. La protección de la privacidad también me da confianza.',
         avatar: ''
       },
       {
-        name: 'Chen Qiang',
-        title: 'Gerente de producto',
-        text: 'textAnalytica AI ofrece una experiencia muy amigable para el usuario. Después de cargar archivos, la IA analiza rápidamente y genera informes, haciendo que todo el proceso sea fluido y natural. Los efectos de visualización de los informes también son excelentes, haciendo que la presentación de datos sea más vívida.',
+        name: 'Chen Qian',
+        title: 'Gerente de Ventas',
+        text: 'La facilidad de uso del generador de tarjetas de presentación con IA es muy buena. Después de subir la información, la IA genera rápidamente las tarjetas, haciendo todo el proceso fluido y natural. Los efectos de diseño de las tarjetas también son excelentes y hacen que la imagen personal sea más profesional.',
         avatar: ''
       },
       {
         name: 'Liu Ting',
-        title: 'Asistente de investigación',
-        text: 'Al procesar datos de investigación académica, las capacidades de análisis inteligente de textAnalytica AI son de gran ayuda. Comprende con precisión la terminología profesional, extrae información clave y genera informes de investigación bien estructurados. La función de soporte multilingüe también me permite procesar fácilmente datos de investigación internacionales.',
+        title: 'Estudiante',
+        text: 'El generador de tarjetas de presentación con IA fue de gran ayuda al preparar mi currículum para pasantías. Extrae inteligentemente mi información educativa y de habilidades para generar diseños de tarjetas adecuados para un estudiante. La multi-funcionalidad también me permite usar varios estilos de tarjetas para diferentes casos.',
         avatar: ''
       },
       {
         name: 'Zhao Yang',
-        title: 'Director de operaciones',
-        text: 'Las medidas de seguridad de datos de textAnalytica AI me dan gran confianza. Utiliza tecnología de encriptación avanzada para garantizar la seguridad de los datos. Además, sus capacidades de análisis de IA son potentes, generando rápidamente informes de análisis operativo profesionales para ayudarnos a tomar mejores decisiones.',
+        title: 'CEO',
+        text: 'Las medidas de protección de la privacidad del generador de tarjetas de presentación con IA me dan mucha confianza. Utiliza tecnologías avanzadas de encriptación para garantizar la seguridad de la información. Mientras tanto, sus capacidades de diseño con IA son potentes y generan rápidamente tarjetas de presentación profesionales, ayudándome a construir una mejor marca personal.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Preguntas Frecuentes',
-    subtitle: 'Preguntas Frecuentes sobre el Generador de Informes de Análisis de Datos IA',
+    subtitle: 'Preguntas frecuentes sobre el generador de tarjetas de presentación con IA',
     emailName: '758771757',
     emailDomain: 'qq.com',
     questions: [
       {
-        q: '¿Qué es el Generador de Informes de Análisis de Datos IA?',
-        a: 'El Generador de Informes de Análisis de Datos IA es una herramienta inteligente que analiza automáticamente los datos y genera informes de análisis profesionales. Utiliza tecnologías IA avanzadas para comprender el contenido de los datos, extraer información importante y presentar los resultados del análisis de manera clara y profesional.'
+        q: '¿Qué es el generador de tarjetas de presentación con IA?',
+        a: 'El generador de tarjetas de presentación con IA es una herramienta inteligente que analiza automáticamente tu información personal y genera tarjetas de presentación profesionales. Utiliza tecnologías avanzadas de IA para comprender el contenido de la información, extraer elementos clave y presentar el diseño de la tarjeta de manera clara y profesional.'
       },
       {
-        q: '¿Qué formatos de archivos de datos son compatibles?',
-        a: 'Soportamos varios formatos comunes de archivos de datos, incluyendo PDF, documentos Word (DOC/DOCX), archivos de texto (TXT), etc. El sistema puede procesar informes financieros, datos de ventas, informes de investigación de mercado y otros tipos de datos de diversos campos, permitiendo análisis inteligente y generación de informes según las características de los datos.'
+        q: '¿Qué tipos de archivos de información se soportan?',
+        a: 'Soportamos varios formatos comunes de archivos de información, incluyendo PDF, documentos Word (DOC/DOCX), archivos de texto (TXT), etc. El sistema puede procesar varios archivos que contienen información personal, incluyendo currículums, perfiles personales, etc., y puede realizar diseño inteligente y generación de tarjetas basado en las características de la información.'
       },
       {
-        q: '¿Los datos están seguros? ¿Cómo se protege la privacidad?',
-        a: 'Utilizamos tecnología de encriptación avanzada para proteger los datos. Los datos subidos se utilizan únicamente para el procesamiento de análisis y se eliminan inmediatamente del servidor una vez completado. No almacenamos datos originales. Todo el proceso se realiza en un entorno seguro, garantizando el más alto nivel de protección de la privacidad de los datos.'
+        q: '¿Es segura mi información personal? ¿Cómo se garantiza la privacidad?',
+        a: 'Utilizamos tecnologías avanzadas de encriptación para proteger tu información personal. Toda la información subida se usa solo para la generación de tarjetas y se elimina inmediatamente del servidor después de completarse. No almacenamos ninguna información original. Todo el proceso se realiza en un entorno seguro para garantizar el más alto nivel de protección de tu privacidad.'
       },
       {
-        q: '¿Puedo personalizar o editar los informes generados?',
-        a: 'Sí, los informes generados por el sistema se pueden descargar en formato HTML y editar y personalizar según sus necesidades. En el futuro, agregaremos más opciones de personalización, incluyendo estilos de informes, tipos de gráficos, dimensiones de análisis y más, para hacer los informes más personalizados y prácticos.'
+        q: '¿Puedo personalizar o editar las tarjetas generadas?',
+        a: 'Sí, las tarjetas generadas por el sistema se pueden descargar en formato HTML y editar y personalizar según tus necesidades. Proporcionamos ricas plantillas y opciones de estilo, incluyendo diseño, colores, fuentes, etc., para hacer tus tarjetas más personalizadas y profesionales.'
       },
       {
-        q: '¿Este servicio es de pago? ¿Hay límites de uso?',
-        a: 'Ofrecemos un servicio básico gratuito que permite a los nuevos usuarios probar gratuitamente la generación completa de 3 informes de análisis de datos. Esto permite experimentar completamente las potentes funciones de análisis IA. Para usuarios que necesitan acceso más frecuente, ofrecemos un valioso plan premium con análisis ilimitado y funciones avanzadas adicionales.'
+        q: '¿Este servicio requiere pago? ¿Hay límites de uso?',
+        a: 'Ofrecemos un servicio básico gratuito que permite a los nuevos usuarios probar gratuitamente la generación completa de 3 tarjetas personales, dándote la oportunidad de experimentar completamente nuestras potentes capacidades de diseño con IA. Para usuarios que necesitan acceso más frecuente, ofrecemos un valioso plan premium con generación ilimitada y funciones avanzadas adicionales.'
       },
       {
-        q: '¿Soporta análisis de datos multilingüe?',
-        a: 'Sí, nuestro sistema IA puede reconocer y procesar datos en varios idiomas, incluyendo inglés, chino y otros idiomas principales. Independientemente del idioma de los datos, podemos proporcionar un servicio de alta calidad de análisis de datos y generación de informes.'
+        q: '¿Soporta multi-funcionalidad?',
+        a: 'Sí, nuestro sistema de IA puede ajustar automáticamente los estilos de diseño de las tarjetas según diferentes requisitos de escenarios, incluyendo estilos comerciales, académicos, creativos y otros. Independientemente del caso para el que quieras usarlo, podemos proporcionar soluciones de diseño de tarjetas adecuadas.'
       }
     ]
   },
   system: {
     languageChanged: 'Idioma cambiado a {lang}',
     loading: 'Cargando...'
+  },
+  workflow: {
+    title: 'Cómo usar el Generador de Tarjetas de Presentación con IA',
+    subtitle: 'Cree hermosas tarjetas de presentación en 3 sencillos pasos',
+    steps: {
+      upload: {
+        title: 'Suba su archivo',
+        desc: 'Simplemente suba su archivo con información personal para comenzar'
+      },
+      analyze: {
+        title: 'Análisis de IA',
+        desc: 'La IA extrae automáticamente la información clave y genera una hermosa tarjeta'
+      },
+      download: {
+        title: 'Descargar y Compartir',
+        desc: 'Descargue su hermosa tarjeta de presentación y compártala donde quiera'
+      }
+    }
   },
   login: {
     title: 'Iniciar sesión en textAnalytica AI',

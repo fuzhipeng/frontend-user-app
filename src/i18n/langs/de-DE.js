@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'KI-Datenanalyse-Berichtgenerator',
+    home: 'KI-Visitenkarten-Generator',
     features: 'Funktionen',
     faq: 'FAQ',
     pricing: 'Preise',
@@ -8,29 +8,29 @@ export default {
     points: 'Punkte: {points}'
   },
   hero: {
-    title: 'KI-Datenanalyse-Berichtgenerator, Machen Sie Dateninsights Sichtbar',
-    subtitle: '✨ Schnelle Datenanalyse, Professionelle Berichte, Entscheidungsunterstützung ✨',
+    title: 'KI-Visitenkarten-Generator, Machen Sie Ihre Visitenkarte Professioneller',
+    subtitle: '✨ Ein-Klick-Generierung, Schönes Design, Mehrfachanwendung ✨',
     tags: {
-      free: 'Intelligente Analyse',
-      ai: 'Professionelle Berichte',
-      noRegister: 'Ein-Klick-Generierung',
-      unlimited: 'Dateninsights'
+      free: 'Kostenlos',
+      ai: 'KI-Intelligentes Design',
+      noRegister: 'Keine Registrierung',
+      unlimited: 'Unbegrenzte Generierung'
     }
   },
   upload: {
     title: 'Dateien hier ablegen oder klicken zum Hochladen',
     subtitle: 'Unterstützt PDF, Word, TXT und mehr',
     button: 'Datei auswählen',
-    converting: 'Analyse läuft...',
-    success: 'Analyse abgeschlossen',
-    error: 'Analyse fehlgeschlagen',
+    converting: 'Generierung läuft...',
+    success: 'Generierung abgeschlossen',
+    error: 'Generierung fehlgeschlagen',
     retry: 'Erneut versuchen',
     cancel: 'Abbrechen',
     fileSizeExceeded: 'Dateigröße überschreitet das Limit. Upgrade erforderlich',
     needLogin: 'Bitte melden Sie sich an, um Dateien hochzuladen'
   },
   preview: {
-    title: 'Vorschau des Analyseberichts',
+    title: 'Vorschau der Visitenkarte',
     download: 'HTML herunterladen',
     copy: 'HTML kopieren',
     copySuccess: 'Erfolgreich kopiert',
@@ -38,115 +38,133 @@ export default {
     noContent: 'Kein Inhalt'
   },
   features: {
-    title: 'Hauptfunktionen des KI-Datenanalyse-Berichtgenerators',
-    subtitle: 'KI-Datenanalyse-Berichtgenerierung der nächsten Generation - Intelligente Analyse, Professionelle Berichte, Dateninsights',
+    title: 'Hauptfunktionen des KI-Visitenkarten-Generators',
+    subtitle: 'Erleben Sie die nächste Generation der KI-Visitenkarten-Generierung - Intelligentes Design, Professionelles Aussehen, Mehrfachanwendung',
     cards: {
       free: {
         title: 'Kostenlos',
-        desc: 'Völlig kostenloser KI-Datenanalyse-Berichtgenerator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
+        desc: 'Völlig kostenloser KI-Visitenkarten-Generator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
       },
       quality: {
-        title: 'Höchste Qualität',
-        desc: 'Basiert auf Claude KI, garantiert höchste Qualität der Analyseberichte.'
+        title: 'Professionelles Design',
+        desc: 'Basiert auf Claude KI, garantiert professionelles und ästhetisches Kartendesign.'
       },
       smart: {
-        title: 'Intelligente Analyse',
-        desc: 'Präzise Identifizierung der Datenstruktur, Beibehaltung des ursprünglichen Formats und Stils.'
+        title: 'Intelligente Generierung',
+        desc: 'Intelligente Erkennung persönlicher Informationen, automatische Generierung schöner Kartendesigns.'
       },
       privacy: {
-        title: 'Verstärkter Datenschutz',
-        desc: 'Fortschrittliche Verschlüsselungstechnologie zur Gewährleistung der Datensicherheit, sofortige Löschung nach der Verarbeitung.'
+        title: 'Datenschutz',
+        desc: 'Fortschrittliche Verschlüsselungstechnologie zur Gewährleistung der Sicherheit Ihrer persönlichen Daten, sofortige Löschung nach der Verarbeitung.'
       },
       understanding: {
-        title: 'Fortgeschrittenes Verständnis',
-        desc: 'Deep-Learning-Modell versteht Bedeutung und Kontextbeziehungen, um wirklich wertvolle Informationen zu extrahieren.'
+        title: 'Szenenanpassung',
+        desc: 'Unterstützt verschiedene Szenenanforderungen, passt Designstil automatisch an verschiedene Anlässe an.'
       },
       advanced: {
-        title: 'Spitzenqualität',
-        desc: 'Basiert auf neuesten KI-Technologien, bietet branchenführende Analysequalität, garantiert Genauigkeit.'
+        title: 'Erweiterte Anpassung',
+        desc: 'Bietet reichhaltige Vorlagen und Stile, unterstützt personalisierte Anpassung für einzigartige Karten.'
       }
     },
     examples: {
-      title: 'Berichtgalerie',
-      subtitle: 'Beispiele Professioneller Datenanalyseberichte',
+      title: 'Kartengalerie',
+      subtitle: 'Beispiele Professioneller Visitenkarten-Designs',
       tag: 'Beispiel'
     }
   },
   testimonials: {
-    title: 'Was Nutzer über textAnalytica AI sagen',
-    subtitle: 'Hören Sie von Nutzern aus verschiedenen Branchen über unser KI-gestütztes Datenanalyse-Tool',
+    title: 'Benutzerbewertungen des KI-Visitenkarten-Generators',
+    subtitle: 'Sehen Sie, wie Benutzer aus verschiedenen Branchen unser KI-Visitenkarten-Generierungstool bewerten',
     list: [
       {
         name: 'Zhang Ming',
-        title: 'Datenanalyst | Technologieunternehmen',
-        text: 'Die intelligenten Analysefähigkeiten von textAnalytica AI sind beeindruckend. Es versteht schnell komplexe Datenstrukturen und generiert professionelle Analyseberichte. Ich schätze besonders die mehrsprachige Unterstützung, die es mir ermöglicht, chinesische und englische Daten gleichzeitig zu verarbeiten und meine Arbeitseffizienz erheblich zu steigern.',
+        title: 'Freiberufler',
+        text: 'Die Designfähigkeiten des KI-Visitenkarten-Generators sind beeindruckend. Er generiert schnell professionelle persönliche Karten mit modernem minimalistischem Designstil. Ich mag besonders seine Szenenanpassungsfunktion, die verschiedene Kartendesigns für verschiedene Anlässe generieren kann.',
         avatar: ''
       },
       {
         name: 'Li Hua',
-        title: 'Marktforschungsmanager',
-        text: 'Als Marktforschungsmanager muss ich häufig große Mengen von Marktdaten analysieren. textAnalytica AI behält nicht nur das ursprüngliche Datenformat bei, sondern extrahiert auch intelligent wichtige Informationen, um klare Analyseberichte zu generieren. Seine KI-Analysefähigkeiten machen Dateninsights einfach und intuitiv.',
+        title: 'Unternehmer',
+        text: 'Als Unternehmer brauche ich ein Tool, das schnell professionelle Visitenkarten generieren kann. Der KI-Visitenkarten-Generator hat nicht nur schönes Design, sondern extrahiert auch intelligenterweise wichtige Informationen, um klare Kartenlayouts zu erstellen. Seine KI-Designfähigkeiten machen die Kartenerstellung einfach und effizient.',
         avatar: ''
       },
       {
         name: 'Wang Fang',
-        title: 'Finanzdirektorin',
-        text: 'Bei der Verarbeitung von Finanzberichten ist die Formatierungserhaltungsfunktion von textAnalytica AI hervorragend. Es erkennt präzise komplexe Formate wie Tabellen und Diagramme und generiert professionelle und ansprechende Analyseberichte. Die Datensicherheitsmaßnahmen geben mir ebenfalls Vertrauen.',
+        title: 'Designer',
+        text: 'Bei der Bearbeitung von Kundenkartenanforderungen ist das Vorlagendesign des KI-Visitenkarten-Generators hervorragend. Er versteht Designanforderungen genau und generiert sowohl professionelle als auch schöne Karten. Der Datenschutz gibt mir auch Sicherheit.',
         avatar: ''
       },
       {
         name: 'Chen Qiang',
-        title: 'Produktmanager',
-        text: 'textAnalytica AI bietet eine sehr benutzerfreundliche Erfahrung. Nach dem Hochladen der Dateien analysiert die KI schnell und generiert Berichte, wodurch der gesamte Prozess flüssig und natürlich ist. Die Visualisierungseffekte der Berichte sind ebenfalls ausgezeichnet und machen die Datenpräsentation lebendiger.',
+        title: 'Verkaufsleiter',
+        text: 'Die Benutzerfreundlichkeit des KI-Visitenkarten-Generators ist sehr gut. Nach dem Hochladen der Informationen generiert die KI schnell Karten, wodurch der gesamte Prozess flüssig und natürlich ist. Die Kartendesign-Effekte sind ebenfalls ausgezeichnet und machen das persönliche Image professioneller.',
         avatar: ''
       },
       {
         name: 'Liu Ting',
-        title: 'Forschungsassistentin',
-        text: 'Bei der Verarbeitung von akademischen Forschungsdaten sind die intelligenten Analysefähigkeiten von textAnalytica AI eine große Hilfe. Es versteht präzise Fachterminologie, extrahiert wichtige Informationen und generiert gut strukturierte Forschungsberichte. Die mehrsprachige Unterstützungsfunktion ermöglicht es mir auch, internationale Forschungsdaten einfach zu verarbeiten.',
+        title: 'Studentin',
+        text: 'Der KI-Visitenkarten-Generator war eine große Hilfe bei der Vorbereitung meines Praktikums-Lebenslaufs. Er extrahiert intelligenterweise meine Bildungs- und Kompetenzinformationen, um Kartendesigns zu generieren, die für Studenten geeignet sind. Die Mehrfachanwendung ermöglicht es mir auch, verschiedene Kartendesigns für verschiedene Anlässe zu verwenden.',
         avatar: ''
       },
       {
         name: 'Zhao Yang',
-        title: 'Betriebsleiter',
-        text: 'Die Datensicherheitsmaßnahmen von textAnalytica AI geben mir großes Vertrauen. Es verwendet fortschrittliche Verschlüsselungstechnologie, um die Datensicherheit zu gewährleisten. Darüber hinaus sind seine KI-Analysefähigkeiten leistungsstark und generieren schnell professionelle Betriebsanalyseberichte, um uns bei besseren Entscheidungen zu unterstützen.',
+        title: 'Geschäftsführer',
+        text: 'Die Datenschutzmaßnahmen des KI-Visitenkarten-Generators geben mir großes Vertrauen. Er verwendet fortschrittliche Verschlüsselungstechnologie, um die Informationssicherheit zu gewährleisten. Seine KI-Designfähigkeiten sind leistungsstark und generieren schnell professionelle Geschäftskarten, um mir zu helfen, eine bessere persönliche Marke aufzubauen.',
         avatar: ''
       }
     ]
   },
   faq: {
-    title: 'Häufig Gestellte Fragen',
-    subtitle: 'Häufig Gestellte Fragen zum KI-Datenanalyse-Berichtgenerator',
+    title: 'Häufig gestellte Fragen',
+    subtitle: 'Häufige Fragen zum KI-Visitenkarten-Generator',
     questions: [
       {
-        q: 'Was ist der KI-Datenanalyse-Berichtgenerator?',
-        a: 'Der KI-Datenanalyse-Berichtgenerator ist ein intelligentes Tool, das automatisch Daten analysiert und professionelle Analyseberichte generiert. Es verwendet fortschrittliche KI-Technologien, um Dateninhalte zu verstehen, wichtige Informationen zu extrahieren und Analyseergebnisse klar und professionell darzustellen.'
+        q: 'Was ist der KI-Visitenkarten-Generator?',
+        a: 'Der KI-Visitenkarten-Generator ist ein intelligentes Tool, das Ihre persönlichen Informationen automatisch analysiert und professionelle Visitenkarten generiert. Er verwendet fortschrittliche KI-Technologie, um Informationsinhalte zu verstehen, wichtige Elemente zu extrahieren und Kartendesigns auf klare und professionelle Weise darzustellen.'
       },
       {
-        q: 'Welche Datenformate werden unterstützt?',
-        a: 'Wir unterstützen verschiedene gängige Datenformate, einschließlich PDF, Word-Dokumente (DOC/DOCX), Textdateien (TXT) und mehr. Das System kann Finanzberichte, Verkaufsdaten, Marktforschungsberichte und andere Arten von Daten aus verschiedenen Bereichen verarbeiten und ermöglicht intelligente Analyse und Berichtgenerierung basierend auf den Datenmerkmalen.'
+        q: 'Welche Arten von Informationsdateien werden unterstützt?',
+        a: 'Wir unterstützen verschiedene gängige Informationsdateiformate, einschließlich PDF, Word-Dokumente (DOC/DOCX), Textdateien (TXT) usw. Das System kann verschiedene Dateien mit persönlichen Informationen verarbeiten, einschließlich Lebensläufe, persönliche Profile usw., und kann basierend auf Informationsmerkmalen intelligentes Design und Kartengenerierung durchführen.'
       },
       {
-        q: 'Sind die Daten sicher? Wie wird der Datenschutz gewährleistet?',
-        a: 'Wir verwenden fortschrittliche Verschlüsselungstechnologie zum Schutz der Daten. Hochgeladene Daten werden nur für die Analyseverarbeitung verwendet und nach Abschluss sofort vom Server gelöscht. Wir speichern keine Originaldaten. Der gesamte Prozess läuft in einer sicheren Umgebung ab, die den höchsten Standard des Datenschutzes gewährleistet.'
+        q: 'Sind meine persönlichen Daten sicher? Wie wird der Datenschutz gewährleistet?',
+        a: 'Wir verwenden fortschrittliche Verschlüsselungstechnologie, um Ihre persönlichen Daten zu schützen. Alle hochgeladenen Informationen werden nur für die Kartengenerierung verwendet und nach Abschluss sofort vom Server gelöscht. Wir speichern keine Originalinformationen. Der gesamte Prozess wird in einer sicheren Umgebung durchgeführt, um sicherzustellen, dass Ihre Privatsphäre den höchsten Schutz genießt.'
       },
       {
-        q: 'Kann ich die generierten Berichte anpassen oder bearbeiten?',
-        a: 'Ja, die vom System generierten Berichte können im HTML-Format heruntergeladen und nach Bedarf bearbeitet und angepasst werden. In Zukunft werden wir weitere Anpassungsoptionen hinzufügen, einschließlich Berichtstile, Diagrammtypen, Analysedimensionen und mehr, um die Berichte noch personalisierter und praktischer zu gestalten.'
+        q: 'Kann ich die generierten Karten anpassen oder bearbeiten?',
+        a: 'Ja, die vom System generierten Karten können im HTML-Format heruntergeladen und nach Ihren Bedürfnissen bearbeitet und angepasst werden. Wir bieten reichhaltige Vorlagen und Stiloptionen, einschließlich Layout, Farben, Schriftarten usw., um Ihre Karten persönlicher und professioneller zu gestalten.'
       },
       {
         q: 'Ist dieser Service kostenpflichtig? Gibt es Nutzungsbeschränkungen?',
-        a: 'Wir bieten einen grundlegenden kostenlosen Service an, der es neuen Nutzern ermöglicht, die vollständige Generierung von 3 Datenanalyseberichten kostenlos zu testen. Dies ermöglicht es, die leistungsstarken KI-Analysefunktionen vollständig zu erleben. Für Nutzer, die häufigeren Zugriff benötigen, bieten wir einen wertvollen Premium-Plan mit unbegrenzter Analyse und zusätzlichen erweiterten Funktionen.'
+        a: 'Wir bieten einen grundlegenden kostenlosen Service an, der es neuen Benutzern ermöglicht, die vollständige Generierung von 3 persönlichen Karten kostenlos zu testen. Dies ermöglicht es, die leistungsstarken KI-Designfähigkeiten vollständig zu erleben. Für Benutzer, die häufigeren Zugriff benötigen, bieten wir einen wertvollen Premium-Plan mit unbegrenzter Generierung und zusätzlichen erweiterten Funktionen.'
       },
       {
-        q: 'Unterstützt es mehrsprachige Datenanalyse?',
-        a: 'Ja, unser KI-System kann Daten in mehreren Sprachen erkennen und verarbeiten, einschließlich Englisch, Chinesisch und anderen Hauptsprachen. Unabhängig von der Sprache der Daten können wir einen hochwertigen Service für Datenanalyse und Berichtgenerierung bereitstellen.'
+        q: 'Unterstützt es Mehrfachanwendung?',
+        a: 'Ja, unser KI-System kann Kartendesign-Stile automatisch an verschiedene Szenenanforderungen anpassen, einschließlich Geschäfts-, Akademischer-, Kreativer- und anderer Stile. Egal für welchen Anlass Sie es verwenden möchten, wir können passende Kartendesign-Lösungen bereitstellen.'
       }
     ]
   },
   system: {
     languageChanged: 'Sprache geändert zu {lang}',
     loading: 'Wird geladen...'
+  },
+  workflow: {
+    title: 'So verwenden Sie den KI-Visitenkarten-Generator',
+    subtitle: 'Erstellen Sie schöne Visitenkarten in 3 einfachen Schritten',
+    steps: {
+      upload: {
+        title: 'Datei hochladen',
+        desc: 'Laden Sie einfach Ihre Datei mit persönlichen Informationen hoch'
+      },
+      analyze: {
+        title: 'KI-Analyse',
+        desc: 'KI extrahiert automatisch wichtige Informationen und erstellt eine schöne Karte'
+      },
+      download: {
+        title: 'Herunterladen & Teilen',
+        desc: 'Laden Sie Ihre schöne Visitenkarte herunter und teilen Sie sie überall'
+      }
+    }
   },
   login: {
     title: 'Bei textAnalytica AI anmelden',

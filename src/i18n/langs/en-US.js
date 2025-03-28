@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'AI Data Analysis Report Generator',
+    home: 'AI Business Card Generator',
     features: 'Features',
     faq: 'FAQ',
     pricing: 'Pricing',
@@ -11,30 +11,48 @@ export default {
     languageChanged: 'Language changed to {lang}',
     loading: 'Loading...'
   },
+  workflow: {
+    title: 'How to Use AI Business Card Generator',
+    subtitle: 'Create beautiful business cards in 3 simple steps',
+    steps: {
+      upload: {
+        title: 'Upload Your File',
+        desc: 'Simply upload your file containing personal information to get started'
+      },
+      analyze: {
+        title: 'AI Analysis',
+        desc: 'AI automatically extracts key information and generates a beautiful card'
+      },
+      download: {
+        title: 'Download & Share',
+        desc: 'Download your beautiful business card and share it anywhere'
+      }
+    }
+  },
   hero: {
-    title: 'Smart Data Analysis Report Generator, Making Data Insights Clear',
-    subtitle: '✨ Quick Data Analysis, Professional Reports, Decision Support ✨',
+    title: 'AI Business Card Generator, Make Your Personal Card More Professional',
+    subtitle: '✨ One-Click Generation, Beautiful Design, Multi-Scene Application ✨',
     tags: {
-      free: 'Smart Analysis',
-      ai: 'Professional Reports',
-      noRegister: 'One-Click Generation',
-      unlimited: 'Data Insights'
+      free: 'Free to Use',
+      ai: 'AI Smart Design',
+      noRegister: 'No Registration',
+      unlimited: 'Unlimited Generation'
     }
   },
   upload: {
     title: 'Drop files here or click to upload',
     subtitle: 'Supports PDF, Word, TXT and more',
     button: 'Choose File',
-    converting: 'Analyzing...',
-    success: 'Analysis Complete',
-    error: 'Analysis Failed',
+    converting: 'Generating...',
+    success: 'Generation Complete',
+    error: 'Generation Failed',
     retry: 'Retry',
     cancel: 'Cancel',
     fileSizeExceeded: 'File size exceeds limit, please upgrade',
     needLogin: 'Please login first to upload files'
   },
   preview: {
-    title: 'Preview Analysis Report',
+    title: 'Preview Business Card',
     download: 'Download HTML',
     copy: 'Copy HTML',
     copySuccess: 'Copied Successfully',
@@ -42,111 +60,109 @@ export default {
     noContent: 'No content available'
   },
   features: {
-    title: 'Main Features of AI Data Analysis Report Generator',
-    subtitle: 'Experience the next generation of AI data analysis report generation - Smart Analysis, Professional Reports, Data Insights',
+    title: 'Main Features of AI Business Card Generator',
+    subtitle: 'Experience Next-Gen AI Business Card Generation - Smart Design, Professional Look, Multi-Scene Application',
     cards: {
       free: {
         title: 'Free to Use',
-        desc: 'Completely free AI data analysis report generator with no usage limits and no registration required.'
+        desc: 'Completely free AI business card generator, no usage restrictions, no registration required.'
       },
       quality: {
-        title: 'Highest Quality',
-        desc: 'Powered by Claude AI, ensuring the highest quality analysis reports.'
+        title: 'Professional Design',
+        desc: 'Powered by Claude AI, ensuring professional and aesthetic card design.'
       },
       smart: {
-        title: 'Smart Analysis',
-        desc: 'Accurately identifies data structure while maintaining original format and styling.'
+        title: 'Smart Generation',
+        desc: 'Intelligent recognition of personal information, automatic generation of beautiful card design.'
       },
       privacy: {
-        title: 'Enhanced Privacy',
-        desc: 'Uses advanced encryption technology to ensure your data security, with immediate deletion of all data after processing.'
+        title: 'Privacy Protection',
+        desc: 'Using advanced encryption technology to ensure your personal information security, immediate deletion after processing.'
       },
       understanding: {
-        title: 'Advanced Text Understanding',
-        desc: 'Deep learning models understand text meaning and contextual relationships to extract truly valuable information.'
+        title: 'Scene Adaptation',
+        desc: 'Supports multiple scene requirements, automatically adjusts design style to meet different occasions.'
       },
       advanced: {
-        title: 'Most Advanced Quality',
-        desc: 'Based on latest AI technology, providing industry-leading analysis quality with precise accuracy.'
+        title: 'Advanced Customization',
+        desc: 'Provides rich templates and styles, supports personalized customization for unique cards.'
       }
     },
     examples: {
-      title: 'Report Gallery',
-      subtitle: 'Professional Data Analysis Report Examples',
+      title: 'Card Gallery',
+      subtitle: 'Professional Personal Business Card Design Examples',
       tag: 'Example'
     }
   },
   testimonials: {
-    title: 'What Users Say About textAnalytica AI',
-    subtitle: 'Hear from users across different industries about our AI-powered data analysis tool',
+    title: 'User Reviews of AI Business Card Generator',
+    subtitle: 'See how users from different industries rate our AI business card generation tool',
     list: [
       {
-        name: 'Michael Zhang',
-        title: 'Data Analyst | Tech Company',
-        text: 'The intelligent analysis capabilities of textAnalytica AI are impressive. It quickly understands complex data structures and generates professional analysis reports. I particularly appreciate its multilingual support, allowing me to process both Chinese and English data simultaneously, greatly improving my work efficiency.',
+        name: 'Zhang Ming',
+        title: 'Freelancer',
+        text: 'The design capabilities of AI Business Card Generator are impressive. It quickly generates professional personal cards with modern minimalist design style. I especially like its multi-scene adaptation feature, which can generate different card styles for different occasions.',
         avatar: ''
       },
       {
-        name: 'David Li',
-        title: 'Market Research Manager',
-        text: 'As a market research manager, I frequently need to analyze large amounts of market data. textAnalytica AI not only maintains the original data format but also intelligently extracts key information to generate clear analysis reports. Its AI analysis capabilities make data insights simple and intuitive.',
+        name: 'Li Hua',
+        title: 'Entrepreneur',
+        text: 'As an entrepreneur, I need a tool that can quickly generate professional business cards. AI Business Card Generator not only has beautiful design but also intelligently extracts key information to create clear card layouts. Its AI design capabilities make card creation simple and efficient.',
         avatar: ''
       },
       {
-        name: 'Sarah Wang',
-        title: 'Financial Director',
-        text: 'When processing financial statements, textAnalytica AI\'s format preservation feature is excellent. It accurately recognizes complex formats like tables and charts, generating analysis reports that are both professional and visually appealing. The data security measures also give me peace of mind.',
+        name: 'Wang Fang',
+        title: 'Designer',
+        text: 'When handling client card requirements, the template design of AI Business Card Generator is excellent. It accurately understands design needs and generates both professional and beautiful cards. The privacy protection also gives me peace of mind.',
         avatar: ''
       },
       {
-        name: 'James Chen',
-        title: 'Product Manager',
-        text: 'textAnalytica AI offers a very user-friendly experience. After uploading files, the AI quickly analyzes and generates reports, making the whole process smooth and natural. The report visualization effects are also excellent, making data presentation more vivid.',
+        name: 'Chen Qiang',
+        title: 'Sales Manager',
+        text: 'The user experience of AI Business Card Generator is very friendly. After uploading information, AI quickly generates cards, making the whole process smooth and natural. The card design effects are also great, making personal image more professional.',
         avatar: ''
       },
       {
-        name: 'Emma Liu',
-        title: 'Research Assistant',
-        text: 'When processing academic research data, textAnalytica AI\'s intelligent analysis capabilities are a great help. It accurately understands professional terminology, extracts key information, and generates well-structured research reports. The multilingual support feature also allows me to easily process international research data.',
+        name: 'Liu Ting',
+        title: 'Student',
+        text: 'AI Business Card Generator was a great help when preparing my internship resume. It intelligently extracts my educational background and skills information to generate card designs suitable for student identity. Multi-scene support also allows me to use different card styles for different occasions.',
         avatar: ''
       },
       {
-        name: 'John Zhao',
-        title: 'Operations Director',
-        text: 'textAnalytica AI\'s data security measures give me great confidence. It uses advanced encryption technology to ensure data security. Additionally, its AI analysis capabilities are powerful, quickly generating professional operational analysis reports to help us make better decisions.',
+        name: 'Zhao Yang',
+        title: 'Corporate Executive',
+        text: 'The privacy protection measures of AI Business Card Generator give me great confidence. It uses advanced encryption technology to ensure information security. Meanwhile, its AI design capabilities are powerful, quickly generating professional business cards to help me build a better personal brand.',
         avatar: ''
       }
     ]
   },
   faq: {
     title: 'Frequently Asked Questions',
-    subtitle: 'Common questions about AI Data Analysis Report Generator',
-    emailName: '758771757',
-    emailDomain: 'qq.com',
+    subtitle: 'Common questions about AI Business Card Generator',
     questions: [
       {
-        q: 'What is AI Data Analysis Report Generator?',
-        a: 'AI Data Analysis Report Generator is an intelligent tool that automatically analyzes your data and generates professional analysis reports. It uses advanced AI technology to understand data content, extract key information, and present analysis results in a clear and professional manner.'
+        q: 'What is AI Business Card Generator?',
+        a: 'AI Business Card Generator is an intelligent tool that automatically analyzes your personal information and generates professional business cards. It uses advanced AI technology to understand information content, extract key elements, and present card design in a clear and professional way.'
       },
       {
-        q: 'What types of data files are supported?',
-        a: 'We support various common data file formats, including PDF, Word documents (DOC/DOCX), text files (TXT), and more. The system can process data from different fields, including financial reports, sales data, market research reports, etc., and can perform intelligent analysis and report generation based on data characteristics.'
+        q: 'What types of information files are supported?',
+        a: 'We support various common information file formats, including PDF, Word documents (DOC/DOCX), text files (TXT), etc. The system can process various files containing personal information, including resumes, personal profiles, etc., and can perform intelligent design and card generation based on information characteristics.'
       },
       {
-        q: 'Is my data secure? How is privacy protected?',
-        a: 'We use advanced encryption technology to protect your data. All uploaded data is only used for analysis processing and is immediately deleted from the server after completion. We don\'t store any original data. The entire process takes place in a secure environment, ensuring your data privacy receives the highest level of protection.'
+        q: 'Is my personal information safe? How is privacy protected?',
+        a: 'We use advanced encryption technology to protect your personal information. All uploaded information is only used for card generation and is immediately deleted from the server after completion. We do not store any original information. The entire process is conducted in a secure environment to ensure your privacy receives the highest level of protection.'
       },
       {
-        q: 'Can I customize or edit the generated reports?',
-        a: 'Yes, the reports generated by the system can be downloaded in HTML format, which you can edit and customize as needed. In the future, we will introduce more customization options, including report styles, chart types, analysis dimensions, and other features to make your reports more personalized and practical.'
+        q: 'Can I customize or edit the generated cards?',
+        a: 'Yes, the cards generated by the system can be downloaded in HTML format and edited and customized according to your needs. We provide rich templates and style options, including layout, colors, fonts, etc., to make your cards more personalized and professional.'
       },
       {
         q: 'Does this service require payment? Are there usage limits?',
-        a: 'We offer a basic free service that allows new users to experience 3 complete data analysis report generations at no cost, giving you a full taste of our powerful AI analysis capabilities. For users who need more frequent access, we provide value-packed premium plans that unlock unlimited analysis and additional advanced features.'
+        a: 'We offer a basic free service that allows new users to experience 3 complete personal card generations for free, letting you fully experience our powerful AI design capabilities. For users who need more frequent use, we provide value-packed premium plans that unlock unlimited generation and additional advanced features.'
       },
       {
-        q: 'Does it support multilingual data analysis?',
-        a: 'Yes, our AI system can recognize and process data in multiple languages, including English, Chinese, and other major languages. Regardless of the language your data is in, we can provide high-quality data analysis and report generation services.'
+        q: 'Does it support multi-scene application?',
+        a: 'Yes, our AI system can automatically adjust card design styles according to different scene requirements, including business, academic, creative and other styles. Whatever occasion you need to use it for, we can provide appropriate card design solutions.'
       }
     ]
   },
