@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'AI Business Card Generator',
+    home: 'AI Self Introduction Card Generator',
     features: 'Features',
     faq: 'FAQ',
     pricing: 'Pricing',
@@ -12,12 +12,12 @@ export default {
     loading: 'Loading...'
   },
   workflow: {
-    title: 'How to Use AI Business Card Generator',
-    subtitle: 'Create beautiful business cards in 3 simple steps',
+    title: 'How to Use AI Self Introduction Card Generator',
+    subtitle: 'Create beautiful self-introduction cards in 3 simple steps',
     steps: {
       upload: {
-        title: 'Upload Your File',
-        desc: 'Simply upload your file containing personal information to get started'
+        title: 'Upload Your Text',
+        desc: 'Simply upload your self-introduction text to get started'
       },
       analyze: {
         title: 'AI Analysis',
@@ -25,13 +25,13 @@ export default {
       },
       download: {
         title: 'Download & Share',
-        desc: 'Download your beautiful business card and share it anywhere'
+        desc: 'Download your beautiful self-introduction card and share it anywhere'
       }
     }
   },
   hero: {
-    title: 'AI Business Card Generator, Make Your Personal Card More Professional',
-    subtitle: '✨ One-Click Generation, Beautiful Design, Multi-Scene Application ✨',
+    title: 'AI Self Introduction Card Generator',
+    subtitle: 'Transform your self-introduction text into beautiful visual cards using AI technology. Simply input your text, and our AI will automatically generate professional, visually appealing self-introduction cards perfect for social media, resumes, or professional profiles.',
     tags: {
       free: 'Free to Use',
       ai: 'AI Smart Design',
@@ -52,7 +52,7 @@ export default {
     needLogin: 'Please login first to upload files'
   },
   preview: {
-    title: 'Preview Business Card',
+    title: 'Preview Self Introduction Card',
     download: 'Download HTML',
     copy: 'Copy HTML',
     copySuccess: 'Copied Successfully',
@@ -60,20 +60,20 @@ export default {
     noContent: 'No content available'
   },
   features: {
-    title: 'Main Features of AI Business Card Generator',
-    subtitle: 'Experience Next-Gen AI Business Card Generation - Smart Design, Professional Look, Multi-Scene Application',
+    title: 'Main Features of AI Self Introduction Card Generator',
+    subtitle: 'Experience Next-Gen AI Self Introduction Card Generation - Smart Design, Professional Look, Multi-Scene Application',
     cards: {
       free: {
         title: 'Free to Use',
-        desc: 'Completely free AI business card generator, no usage restrictions, no registration required.'
+        desc: 'Completely free AI self-introduction card generator, no usage restrictions, no registration required.'
       },
       quality: {
         title: 'Professional Design',
-        desc: 'Powered by Claude AI, ensuring professional and aesthetic card design.'
+        desc: 'AI-generated cards with professional visual design highlighting your personal traits.'
       },
       smart: {
         title: 'Smart Generation',
-        desc: 'Intelligent recognition of personal information, automatic generation of beautiful card design.'
+        desc: 'Automatically extracts key information from your input for visual presentation.'
       },
       privacy: {
         title: 'Privacy Protection',
@@ -81,11 +81,11 @@ export default {
       },
       understanding: {
         title: 'Scene Adaptation',
-        desc: 'Supports multiple scene requirements, automatically adjusts design style to meet different occasions.'
+        desc: 'Support for self-introduction cards for social media profiles, job applications, personal websites, and more.'
       },
       advanced: {
-        title: 'Advanced Customization',
-        desc: 'Provides rich templates and styles, supports personalized customization for unique cards.'
+        title: 'Multi-language Support',
+        desc: 'Generate self-introductions in multiple languages including English and Chinese.'
       }
     },
     examples: {
@@ -138,31 +138,23 @@ export default {
   },
   faq: {
     title: 'Frequently Asked Questions',
-    subtitle: 'Common questions about AI Business Card Generator',
+    subtitle: 'Common questions about AI Self Introduction Card Generator',
     questions: [
       {
-        q: 'What is AI Business Card Generator?',
-        a: 'AI Business Card Generator is an intelligent tool that automatically analyzes your personal information and generates professional business cards. It uses advanced AI technology to understand information content, extract key elements, and present card design in a clear and professional way.'
+        q: 'What can I use this tool for?',
+        a: 'You can create professional self-introduction cards for social media profiles, job applications, personal websites, or any occasion where you need to present yourself.'
       },
       {
-        q: 'What types of information files are supported?',
-        a: 'We support various common information file formats, including PDF, Word documents (DOC/DOCX), text files (TXT), etc. The system can process various files containing personal information, including resumes, personal profiles, etc., and can perform intelligent design and card generation based on information characteristics.'
+        q: 'Is there a fee to use this tool?',
+        a: 'Currently, this tool is completely free to use. You can generate self-introduction cards without any limitations.'
       },
       {
-        q: 'Is my personal information safe? How is privacy protected?',
-        a: 'We use advanced encryption technology to protect your personal information. All uploaded information is only used for card generation and is immediately deleted from the server after completion. We do not store any original information. The entire process is conducted in a secure environment to ensure your privacy receives the highest level of protection.'
+        q: 'What languages are supported?',
+        a: 'Our AI can process self-introductions in multiple languages, including English, Chinese, and other major languages.'
       },
       {
-        q: 'Can I customize or edit the generated cards?',
-        a: 'Yes, the cards generated by the system can be downloaded in HTML format and edited and customized according to your needs. We provide rich templates and style options, including layout, colors, fonts, etc., to make your cards more personalized and professional.'
-      },
-      {
-        q: 'Does this service require payment? Are there usage limits?',
-        a: 'We offer a basic free service that allows new users to experience 3 complete personal card generations for free, letting you fully experience our powerful AI design capabilities. For users who need more frequent use, we provide value-packed premium plans that unlock unlimited generation and additional advanced features.'
-      },
-      {
-        q: 'Does it support multi-scene application?',
-        a: 'Yes, our AI system can automatically adjust card design styles according to different scene requirements, including business, academic, creative and other styles. Whatever occasion you need to use it for, we can provide appropriate card design solutions.'
+        q: 'Is my data secure?',
+        a: 'We value your privacy. The self-introduction content you provide is only used to generate cards and will not be used for other purposes.'
       }
     ]
   },

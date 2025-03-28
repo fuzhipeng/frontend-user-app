@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'KI-Visitenkarten-Generator',
+    home: 'KI-Selbstvorstellungskarten-Generator',
     features: 'Funktionen',
     faq: 'FAQ',
     pricing: 'Preise',
@@ -8,8 +8,8 @@ export default {
     points: 'Punkte: {points}'
   },
   hero: {
-    title: 'KI-Visitenkarten-Generator, Machen Sie Ihre Visitenkarte Professioneller',
-    subtitle: '✨ Ein-Klick-Generierung, Schönes Design, Mehrfachanwendung ✨',
+    title: 'KI-Selbstvorstellungskarten-Generator',
+    subtitle: 'Verwandeln Sie Ihren Vorstellungstext mit KI-Technologie in schöne visuelle Karten. Geben Sie einfach Ihren Text ein, und unsere KI generiert automatisch professionelle, optisch ansprechende Selbstvorstellungskarten, die perfekt für soziale Medien, Lebensläufe oder berufliche Profile geeignet sind.',
     tags: {
       free: 'Kostenlos',
       ai: 'KI-Intelligentes Design',
@@ -30,7 +30,7 @@ export default {
     needLogin: 'Bitte melden Sie sich an, um Dateien hochzuladen'
   },
   preview: {
-    title: 'Vorschau der Visitenkarte',
+    title: 'Vorschau der Selbstvorstellungskarte',
     download: 'HTML herunterladen',
     copy: 'HTML kopieren',
     copySuccess: 'Erfolgreich kopiert',
@@ -38,32 +38,32 @@ export default {
     noContent: 'Kein Inhalt'
   },
   features: {
-    title: 'Hauptfunktionen des KI-Visitenkarten-Generators',
-    subtitle: 'Erleben Sie die nächste Generation der KI-Visitenkarten-Generierung - Intelligentes Design, Professionelles Aussehen, Mehrfachanwendung',
+    title: 'Hauptfunktionen des KI-Selbstvorstellungskarten-Generators',
+    subtitle: 'Erleben Sie die nächste Generation der KI-Selbstvorstellungskarten - Intelligentes Design, Professionelles Aussehen, Mehrzweckanwendung',
     cards: {
       free: {
         title: 'Kostenlos',
-        desc: 'Völlig kostenloser KI-Visitenkarten-Generator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
+        desc: 'Völlig kostenloser KI-Selbstvorstellungskarten-Generator, keine Nutzungsbeschränkungen, keine Registrierung erforderlich.'
       },
       quality: {
         title: 'Professionelles Design',
-        desc: 'Basiert auf Claude KI, garantiert professionelles und ästhetisches Kartendesign.'
+        desc: 'KI-generierte Karten mit professionellem visuellem Design, das Ihre persönlichen Eigenschaften hervorhebt.'
       },
       smart: {
         title: 'Intelligente Generierung',
-        desc: 'Intelligente Erkennung persönlicher Informationen, automatische Generierung schöner Kartendesigns.'
+        desc: 'Extrahiert automatisch wichtige Informationen aus Ihrer Eingabe für die visuelle Darstellung.'
       },
       privacy: {
         title: 'Datenschutz',
-        desc: 'Fortschrittliche Verschlüsselungstechnologie zur Gewährleistung der Sicherheit Ihrer persönlichen Daten, sofortige Löschung nach der Verarbeitung.'
+        desc: 'Verwendung fortschrittlicher Verschlüsselungstechnologie zum Schutz Ihrer persönlichen Daten, sofortige Löschung nach der Verarbeitung.'
       },
       understanding: {
-        title: 'Szenenanpassung',
-        desc: 'Unterstützt verschiedene Szenenanforderungen, passt Designstil automatisch an verschiedene Anlässe an.'
+        title: 'Szenarienanpassung',
+        desc: 'Unterstützung für Selbstvorstellungskarten für Social-Media-Profile, Bewerbungen, persönliche Websites und mehr.'
       },
       advanced: {
-        title: 'Erweiterte Anpassung',
-        desc: 'Bietet reichhaltige Vorlagen und Stile, unterstützt personalisierte Anpassung für einzigartige Karten.'
+        title: 'Mehrsprachenunterstützung',
+        desc: 'Generieren Sie Selbstvorstellungen in mehreren Sprachen, einschließlich Deutsch und Englisch.'
       }
     },
     examples: {
@@ -116,31 +116,23 @@ export default {
   },
   faq: {
     title: 'Häufig gestellte Fragen',
-    subtitle: 'Häufige Fragen zum KI-Visitenkarten-Generator',
+    subtitle: 'Häufige Fragen zum KI-Selbstvorstellungskarten-Generator',
     questions: [
       {
-        q: 'Was ist der KI-Visitenkarten-Generator?',
-        a: 'Der KI-Visitenkarten-Generator ist ein intelligentes Tool, das Ihre persönlichen Informationen automatisch analysiert und professionelle Visitenkarten generiert. Er verwendet fortschrittliche KI-Technologie, um Informationsinhalte zu verstehen, wichtige Elemente zu extrahieren und Kartendesigns auf klare und professionelle Weise darzustellen.'
+        q: 'Wofür kann ich dieses Tool verwenden?',
+        a: 'Sie können professionelle Selbstvorstellungskarten für Social-Media-Profile, Bewerbungen, persönliche Websites oder jede andere Gelegenheit erstellen, bei der Sie sich präsentieren möchten.'
       },
       {
-        q: 'Welche Arten von Informationsdateien werden unterstützt?',
-        a: 'Wir unterstützen verschiedene gängige Informationsdateiformate, einschließlich PDF, Word-Dokumente (DOC/DOCX), Textdateien (TXT) usw. Das System kann verschiedene Dateien mit persönlichen Informationen verarbeiten, einschließlich Lebensläufe, persönliche Profile usw., und kann basierend auf Informationsmerkmalen intelligentes Design und Kartengenerierung durchführen.'
+        q: 'Gibt es Gebühren für die Nutzung dieses Tools?',
+        a: 'Derzeit ist dieses Tool völlig kostenlos. Sie können Selbstvorstellungskarten ohne Einschränkungen generieren.'
       },
       {
-        q: 'Sind meine persönlichen Daten sicher? Wie wird der Datenschutz gewährleistet?',
-        a: 'Wir verwenden fortschrittliche Verschlüsselungstechnologie, um Ihre persönlichen Daten zu schützen. Alle hochgeladenen Informationen werden nur für die Kartengenerierung verwendet und nach Abschluss sofort vom Server gelöscht. Wir speichern keine Originalinformationen. Der gesamte Prozess wird in einer sicheren Umgebung durchgeführt, um sicherzustellen, dass Ihre Privatsphäre den höchsten Schutz genießt.'
+        q: 'Welche Sprachen werden unterstützt?',
+        a: 'Unsere KI kann Selbstvorstellungen in mehreren Sprachen verarbeiten, einschließlich Deutsch, Englisch und anderen wichtigen Sprachen.'
       },
       {
-        q: 'Kann ich die generierten Karten anpassen oder bearbeiten?',
-        a: 'Ja, die vom System generierten Karten können im HTML-Format heruntergeladen und nach Ihren Bedürfnissen bearbeitet und angepasst werden. Wir bieten reichhaltige Vorlagen und Stiloptionen, einschließlich Layout, Farben, Schriftarten usw., um Ihre Karten persönlicher und professioneller zu gestalten.'
-      },
-      {
-        q: 'Ist dieser Service kostenpflichtig? Gibt es Nutzungsbeschränkungen?',
-        a: 'Wir bieten einen grundlegenden kostenlosen Service an, der es neuen Benutzern ermöglicht, die vollständige Generierung von 3 persönlichen Karten kostenlos zu testen. Dies ermöglicht es, die leistungsstarken KI-Designfähigkeiten vollständig zu erleben. Für Benutzer, die häufigeren Zugriff benötigen, bieten wir einen wertvollen Premium-Plan mit unbegrenzter Generierung und zusätzlichen erweiterten Funktionen.'
-      },
-      {
-        q: 'Unterstützt es Mehrfachanwendung?',
-        a: 'Ja, unser KI-System kann Kartendesign-Stile automatisch an verschiedene Szenenanforderungen anpassen, einschließlich Geschäfts-, Akademischer-, Kreativer- und anderer Stile. Egal für welchen Anlass Sie es verwenden möchten, wir können passende Kartendesign-Lösungen bereitstellen.'
+        q: 'Sind meine Daten sicher?',
+        a: 'Wir legen großen Wert auf Ihre Privatsphäre. Die von Ihnen bereitgestellten Selbstvorstellungsinhalte werden nur zur Generierung von Karten verwendet und nicht für andere Zwecke genutzt.'
       }
     ]
   },

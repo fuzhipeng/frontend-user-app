@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Generador de Tarjetas de Presentación con IA',
+    home: 'Generador de Tarjetas de Autopresentación con IA',
     features: 'Características',
     faq: 'Preguntas Frecuentes',
     pricing: 'Precios',
@@ -8,62 +8,62 @@ export default {
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'Generador de Tarjetas de Presentación con IA, Haz Tu Tarjeta Más Profesional',
-    subtitle: '✨ Generación con Un Clic, Diseño Hermoso, Multi-Escenario ✨',
+    title: 'Generador de Tarjetas de Autopresentación con IA',
+    subtitle: 'Transforma tu texto de autopresentación en hermosas tarjetas visuales utilizando tecnología de IA. Simplemente ingresa tu texto y nuestra IA creará automáticamente tarjetas de autopresentación profesionales y visualmente atractivas, perfectas para redes sociales, currículos o perfiles profesionales.',
     tags: {
       free: 'Gratis',
-      ai: 'Diseño Inteligente con IA',
+      ai: 'Diseño Inteligente IA',
       noRegister: 'Sin Registro',
       unlimited: 'Generación Ilimitada'
     }
   },
   upload: {
-    title: 'Arrastra archivos aquí o haz clic para subir',
+    title: 'Arrastra archivos aquí o haz clic para cargar',
     subtitle: 'Soporta PDF, Word, TXT y otros formatos',
     button: 'Seleccionar archivo',
     converting: 'Generando...',
     success: 'Generación completada',
-    error: 'Error de generación',
+    error: 'Error en la generación',
     retry: 'Reintentar',
     cancel: 'Cancelar',
-    fileSizeExceeded: 'El tamaño del archivo excede el límite. Se requiere actualización',
-    needLogin: 'Por favor, inicia sesión para subir archivos'
+    fileSizeExceeded: 'Tamaño de archivo excedido. Se requiere actualización',
+    needLogin: 'Por favor inicia sesión para cargar archivos'
   },
   preview: {
-    title: 'Vista Previa de Tarjeta de Presentación',
+    title: 'Vista Previa de la Tarjeta de Autopresentación',
     download: 'Descargar HTML',
     copy: 'Copiar HTML',
-    copySuccess: 'Copiado con éxito',
+    copySuccess: 'Copiado exitosamente',
     copyError: 'Error al copiar',
     noContent: 'Sin contenido'
   },
   features: {
-    title: 'Características Principales del Generador de Tarjetas de Presentación con IA',
-    subtitle: 'Experimenta la próxima generación de generación de tarjetas de presentación con IA - Diseño Inteligente, Aspecto Profesional, Multi-Escenario',
+    title: 'Características Principales del Generador de Tarjetas de Autopresentación con IA',
+    subtitle: 'Experimenta la Próxima Generación de Creación de Tarjetas de Autopresentación con IA - Diseño Inteligente, Aspecto Profesional, Multifuncional',
     cards: {
       free: {
         title: 'Gratis',
-        desc: 'Generador de tarjetas de presentación con IA completamente gratuito, sin límites de uso, sin registro.'
+        desc: 'Generador de tarjetas de autopresentación con IA completamente gratuito, sin límites de uso, sin necesidad de registro.'
       },
       quality: {
         title: 'Diseño Profesional',
-        desc: 'Basado en Claude IA, garantiza un diseño de tarjeta profesional y estético.'
+        desc: 'Tarjetas creadas por IA con diseño visual profesional que resalta tus cualidades personales.'
       },
       smart: {
         title: 'Generación Inteligente',
-        desc: 'Reconocimiento inteligente de información personal, generación automática de hermosos diseños de tarjetas.'
+        desc: 'Extrae automáticamente información clave de tu texto para la presentación visual.'
       },
       privacy: {
         title: 'Protección de Privacidad',
-        desc: 'Uso de tecnologías avanzadas de encriptación para garantizar la seguridad de tu información personal, eliminación inmediata después del procesamiento.'
+        desc: 'Utilizamos tecnología de encriptación avanzada para garantizar la seguridad de tu información personal, eliminándola inmediatamente después del procesamiento.'
       },
       understanding: {
         title: 'Adaptación a Escenarios',
-        desc: 'Soporte para diversos escenarios de uso, ajuste automático del estilo de diseño para diferentes casos.'
+        desc: 'Soporte para tarjetas de autopresentación en perfiles de redes sociales, solicitudes de empleo, sitios web personales y más.'
       },
       advanced: {
-        title: 'Personalización Avanzada',
-        desc: 'Proporciona ricas plantillas y estilos, soporte para personalización para tarjetas únicas.'
+        title: 'Soporte Multilingüe',
+        desc: 'Crea autopresentaciones en múltiples idiomas, incluyendo español e inglés.'
       }
     },
     examples: {
@@ -116,33 +116,23 @@ export default {
   },
   faq: {
     title: 'Preguntas Frecuentes',
-    subtitle: 'Preguntas frecuentes sobre el generador de tarjetas de presentación con IA',
-    emailName: '758771757',
-    emailDomain: 'qq.com',
+    subtitle: 'Preguntas comunes sobre el Generador de Tarjetas de Autopresentación con IA',
     questions: [
       {
-        q: '¿Qué es el generador de tarjetas de presentación con IA?',
-        a: 'El generador de tarjetas de presentación con IA es una herramienta inteligente que analiza automáticamente tu información personal y genera tarjetas de presentación profesionales. Utiliza tecnologías avanzadas de IA para comprender el contenido de la información, extraer elementos clave y presentar el diseño de la tarjeta de manera clara y profesional.'
+        q: '¿Para qué puedo usar esta herramienta?',
+        a: 'Puedes crear tarjetas de autopresentación profesionales para perfiles de redes sociales, solicitudes de empleo, sitios web personales o cualquier otra ocasión donde necesites presentarte.'
       },
       {
-        q: '¿Qué tipos de archivos de información se soportan?',
-        a: 'Soportamos varios formatos comunes de archivos de información, incluyendo PDF, documentos Word (DOC/DOCX), archivos de texto (TXT), etc. El sistema puede procesar varios archivos que contienen información personal, incluyendo currículums, perfiles personales, etc., y puede realizar diseño inteligente y generación de tarjetas basado en las características de la información.'
+        q: '¿Hay algún costo por usar esta herramienta?',
+        a: 'Actualmente, esta herramienta es completamente gratuita. Puedes crear tarjetas de autopresentación sin ninguna restricción.'
       },
       {
-        q: '¿Es segura mi información personal? ¿Cómo se garantiza la privacidad?',
-        a: 'Utilizamos tecnologías avanzadas de encriptación para proteger tu información personal. Toda la información subida se usa solo para la generación de tarjetas y se elimina inmediatamente del servidor después de completarse. No almacenamos ninguna información original. Todo el proceso se realiza en un entorno seguro para garantizar el más alto nivel de protección de tu privacidad.'
+        q: '¿Qué idiomas son compatibles?',
+        a: 'Nuestra IA puede procesar autopresentaciones en múltiples idiomas, incluyendo español, inglés y otros idiomas principales.'
       },
       {
-        q: '¿Puedo personalizar o editar las tarjetas generadas?',
-        a: 'Sí, las tarjetas generadas por el sistema se pueden descargar en formato HTML y editar y personalizar según tus necesidades. Proporcionamos ricas plantillas y opciones de estilo, incluyendo diseño, colores, fuentes, etc., para hacer tus tarjetas más personalizadas y profesionales.'
-      },
-      {
-        q: '¿Este servicio requiere pago? ¿Hay límites de uso?',
-        a: 'Ofrecemos un servicio básico gratuito que permite a los nuevos usuarios probar gratuitamente la generación completa de 3 tarjetas personales, dándote la oportunidad de experimentar completamente nuestras potentes capacidades de diseño con IA. Para usuarios que necesitan acceso más frecuente, ofrecemos un valioso plan premium con generación ilimitada y funciones avanzadas adicionales.'
-      },
-      {
-        q: '¿Soporta multi-funcionalidad?',
-        a: 'Sí, nuestro sistema de IA puede ajustar automáticamente los estilos de diseño de las tarjetas según diferentes requisitos de escenarios, incluyendo estilos comerciales, académicos, creativos y otros. Independientemente del caso para el que quieras usarlo, podemos proporcionar soluciones de diseño de tarjetas adecuadas.'
+        q: '¿Están seguros mis datos?',
+        a: 'Valoramos tu privacidad. El contenido de autopresentación que proporcionas solo se utiliza para crear las tarjetas y no se utilizará para ningún otro propósito.'
       }
     ]
   },
