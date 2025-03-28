@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Générateur de Cartes de Présentation IA',
+    home: 'IntroCard AI - Générateur de Cartes de Présentation',
     features: 'Fonctionnalités',
     faq: 'FAQ',
     pricing: 'Tarifs',
@@ -8,7 +8,7 @@ export default {
     points: 'Points: {points}'
   },
   hero: {
-    title: 'Générateur de Cartes de Présentation IA',
+    title: 'IntroCard AI - Générateur de Cartes de Présentation',
     subtitle: 'Transformez votre texte de présentation en magnifiques cartes visuelles grâce à la technologie IA. Saisissez simplement votre texte et notre IA créera automatiquement des cartes de présentation professionnelles et visuellement attrayantes, parfaites pour les réseaux sociaux, les CV ou les profils professionnels.',
     tags: {
       free: 'Gratuit',

@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Generador de Tarjetas de Autopresentación con IA',
+    home: 'IntroCard AI - Generador de Tarjetas de Autopresentación',
     features: 'Características',
     faq: 'Preguntas Frecuentes',
     pricing: 'Precios',
@@ -8,7 +8,7 @@ export default {
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'Generador de Tarjetas de Autopresentación con IA',
+    title: 'IntroCard AI - Generador de Tarjetas de Autopresentación',
     subtitle: 'Transforma tu texto de autopresentación en hermosas tarjetas visuales utilizando tecnología de IA. Simplemente ingresa tu texto y nuestra IA creará automáticamente tarjetas de autopresentación profesionales y visualmente atractivas, perfectas para redes sociales, currículos o perfiles profesionales.',
     tags: {
       free: 'Gratis',
@@ -159,8 +159,8 @@ export default {
     }
   },
   login: {
-    title: 'Iniciar sesión en textAnalytica AI',
-    subtitle: 'Experimente las mejores características de textAnalytica AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    title: 'Iniciar sesión en IntroCard AI',
+    subtitle: 'Experimente las mejores características de IntroCard AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
     terms: 'Al iniciar sesión, aceptas nuestros',
     termsLink: 'Términos de servicio y Política de privacidad',
     success: 'Inicio de sesión exitoso',
@@ -183,7 +183,7 @@ export default {
   },
   pricing: {
     title: 'Elija Su Plan',
-    subtitle: 'Experimente las mejores características de textAnalytica AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    subtitle: 'Experimente las mejores características de IntroCard AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
     monthly: 'Suscripción mensual',
     yearly: 'Suscripción anual (Ahorre 20%)',
     highTier: {
@@ -274,12 +274,12 @@ export default {
     lastUpdated: 'Última actualización: 10 de enero de 2024',
     sections: {
       acceptance: {
-        title: 'Aceptación de los Términos',
-        content: 'Bienvenido a textAnalytica AI. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
+        title: 'Aceptación de términos',
+        content: 'Bienvenido a IntroCard AI. Al utilizar nuestro servicio, usted acepta estar sujeto a estos términos. Si no está de acuerdo con alguna parte de estos términos, por favor no utilice nuestro servicio.'
       },
       description: {
-        title: 'Descripción del Servicio',
-        content: 'textAnalytica AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
+        title: 'Descripción del servicio',
+        content: 'IntroCard AI proporciona servicios de conversión de documentos basados en IA. Nuestros servicios incluyen:',
         items: [
           'Conversión de documentos asistida por IA',
           'Extracción y análisis de texto',

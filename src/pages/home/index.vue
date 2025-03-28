@@ -39,8 +39,8 @@
             <div v-else class="converting-status">
               <div class="file-info">
                 <el-icon><document /></el-icon>
-                <span class="filename">{{ currentFile.name }}</span>
-                <span class="filesize">{{ formatFileSize(currentFile.size) }}</span>
+                <span class="filename">{{ currentFile?.name }}</span>
+                <span class="filesize">{{ formatFileSize(currentFile?.size) }}</span>
               </div>
               <el-progress 
                 :percentage="convertProgress"
@@ -153,21 +153,6 @@
             </div>
           </div>
         </div>
-
-        <!-- 用户提取示例部分 - 临时注释,后续需要恢复 -->
-        <!-- <div class="examples-section">
-          <h2>{{ $t('features.examples.title') }}</h2>
-          <p class="examples-subtitle">{{ $t('features.examples.subtitle') }}</p>
-          
-          <div class="examples-grid">
-            <div v-for="i in 9" :key="i" class="example-item">
-              <img :src="'./images/examples/example-' + i + '.jpg'" :alt="$t('features.examples.tag') + ' ' + i" class="example-image">
-              <div class="example-overlay">
-                <span class="example-tag">{{ $t('features.examples.tag') }} {{i}}</span>
-              </div>
-            </div>
-          </div>
-        </div> -->
 
         <!-- 用户评价部分 -->
          <Testimonials /> 
@@ -350,7 +335,7 @@ const downloadHtml = () => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>${currentFile.value.name.replace(/\.[^/.]+$/, '') + ' - 转换结果'}</title>
+      <title>${currentFile.value?.name.replace(/\.[^/.]+$/, '') + ' - IntroCard AI'}</title>
       <style>
         body {
           margin: 0;
@@ -512,7 +497,7 @@ const downloadHtml = () => {
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = currentFile.value.name.replace(/\.[^/.]+$/, '') + '.html'
+  a.download = currentFile.value?.name.replace(/\.[^/.]+$/, '') + '.html'
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)

@@ -117,8 +117,6 @@ export default {
   faq: {
     title: '자주 묻는 질문',
     subtitle: 'AI 데이터 분석 리포트 생성기에 대한 자주 묻는 질문',
-    emailName: '758771757',
-    emailDomain: 'qq.com',
     questions: [
       {
         q: 'AI 데이터 분석 리포트 생성기란 무엇인가요?',

@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'AI智能自我介绍卡片生成器',
+    home: 'IntroCard AI - 智能自我介绍卡片生成器',
     features: '功能特点',
     faq: '常见问题',
     pricing: '价格',
@@ -30,8 +30,8 @@ export default {
     }
   },
   hero: {
-    title: 'AI智能自我介绍卡片生成器，让您的个人介绍更专业',
-    subtitle: '✨ 将您的自我介绍文本转换为精美的可视化卡片，由AI技术驱动 ✨',
+    title: 'IntroCard AI - 智能自我介绍卡片生成器',
+    subtitle: '使用AI技术将您的自我介绍文本转换为精美的视觉卡片。只需输入文本，我们的AI就能自动创建专业、美观的自我介绍卡片，完美适用于社交媒体、求职简历或专业档案。',
     tags: {
       free: '免费使用',
       ai: 'AI智能设计',
@@ -166,8 +166,8 @@ export default {
     details: '错误详情'
   },
   login: {
-    title: '登录到 textAnalytica AI',
-    subtitle: '体验 textAnalytica AI 的最佳功能：更快的文档处理速度和高级格式保留能力',
+    title: '登录到 IntroCard AI',
+    subtitle: '体验 IntroCard AI 的最佳功能：更快的文档处理速度和高级格式保留能力',
     terms: '登录即表示您同意我们的',
     termsLink: '服务条款和隐私政策',
     success: '登录成功',
@@ -183,7 +183,7 @@ export default {
   },
   pricing: {
     title: '选择您的计划',
-    subtitle: '体验 textAnalytica AI 的最佳功能：更快的文档处理速度和高级格式保留能力',
+    subtitle: '体验 IntroCard AI 的最佳功能：更快的文档处理速度和高级格式保留能力',
     monthly: '月度订阅',
     yearly: '年度订阅（节省20%）',
     highTier: {
@@ -252,15 +252,15 @@ export default {
         },
         {
           question: '我可以使用该产品获得帮助吗？',
-          answer: '是的！\n您可以通过电子邮件support@textanalytica.ai与我们联系，以获取所需的任何帮助。'
+          answer: '是的！\n您可以通过电子邮件support@introcard.ai与我们联系，以获取所需的任何帮助。'
         },
         {
           question: '企业级别是什么？',
-          answer: '如果您有独特的用例，并且想了解有关定价的更多信息，请通过sales@textanalytica.ai与我们联系。'
+          answer: '如果您有独特的用例，并且想了解有关定价的更多信息，请通过sales@introcard.ai与我们联系。'
         },
         {
           question: '我必须是付费用户才能将转换后的文档用于商业用途吗？',
-          answer: '否。只要您尊重使用条款，就可以自由使用我们的文档转换功能，无论是个人、学术还是商业用途！\n如果您是免费用户，请在使用时注明文档由textAnalytica AI转换。'
+          answer: '否。只要您尊重使用条款，就可以自由使用我们的文档转换功能，无论是个人、学术还是商业用途！\n如果您是免费用户，请在使用时注明文档由IntroCard AI转换。'
         },
         {
           question: '我的订阅包括API访问吗？',
@@ -275,7 +275,7 @@ export default {
     sections: {
       intro: {
         title: '引言',
-        content: '在textAnalytica AI，我们非常重视您的隐私。本隐私政策说明了我们在您使用我们的AI数据分析服务（textanalytica.ai，以下简称"服务"）时如何收集、使用和保护您的信息。'
+        content: '在IntroCard AI，我们非常重视您的隐私。本隐私政策说明了我们在您使用我们的AI数据分析服务（introcard.ai，以下简称"服务"）时如何收集、使用和保护您的信息。'
       },
       noCollection: {
         title: '我们不收集的信息',
@@ -334,7 +334,7 @@ export default {
       },
       contact: {
         title: '联系信息',
-        content: '如果您对本隐私政策有任何问题，请通过support@textanalytica.ai联系我们。'
+        content: '如果您对本隐私政策有任何问题，请通过support@introcard.ai联系我们。'
       },
       legal: {
         title: '法律依据',
@@ -348,11 +348,11 @@ export default {
     sections: {
       acceptance: {
         title: '条款接受',
-        content: '欢迎使用textAnalytica AI。访问或使用我们的服务即表示您同意受这些条款的约束。如果您不同意这些条款的任何部分，请不要使用我们的服务。'
+        content: '欢迎使用IntroCard AI。访问或使用我们的服务即表示您同意受这些条款的约束。如果您不同意这些条款的任何部分，请不要使用我们的服务。'
       },
       description: {
         title: '服务说明',
-        content: 'textAnalytica AI提供AI驱动的文档提取和转换服务。我们的服务包括：',
+        content: 'IntroCard AI提供AI驱动的文档提取和转换服务。我们的服务包括：',
         items: [
           'AI智能文档分析',
           '文章精华提取',
@@ -420,7 +420,7 @@ export default {
       },
       contact: {
         title: '联系我们',
-        content: '如果您对这些服务条款有任何问题，请通过support@textanalytica.ai联系我们。'
+        content: '如果您对这些服务条款有任何问题，请通过support@introcard.ai联系我们。'
       }
     }
   }

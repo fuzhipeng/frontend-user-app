@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'AI Self Introduction Card Generator',
+    home: 'IntroCard AI - Smart Self-Introduction Card Generator',
     features: 'Features',
     faq: 'FAQ',
     pricing: 'Pricing',
@@ -30,10 +30,10 @@ export default {
     }
   },
   hero: {
-    title: 'AI Self Introduction Card Generator',
-    subtitle: 'Transform your self-introduction text into beautiful visual cards using AI technology. Simply input your text, and our AI will automatically generate professional, visually appealing self-introduction cards perfect for social media, resumes, or professional profiles.',
+    title: 'IntroCard AI - Smart Self-Introduction Card Generator',
+    subtitle: 'Transform your self-introduction text into beautiful visual cards using AI technology. Simply input your text, and our AI will automatically create professional, visually appealing self-introduction cards, perfect for social media, resumes, or professional profiles.',
     tags: {
-      free: 'Free to Use',
+      free: 'Free',
       ai: 'AI Smart Design',
       noRegister: 'No Registration',
       unlimited: 'Unlimited Generation'
@@ -166,8 +166,8 @@ export default {
     details: 'Error Details'
   },
   login: {
-    title: 'Login to textAnalytica AI',
-    subtitle: 'Experience the best features of textAnalytica AI: faster document processing and advanced format preservation',
+    title: 'Login to IntroCard AI',
+    subtitle: 'Experience the best features of IntroCard AI: faster document processing and advanced format preservation',
     terms: 'By signing in, you agree to our',
     termsLink: 'Terms of Service and Privacy Policy',
     success: 'Login Successful',
@@ -183,7 +183,7 @@ export default {
   },
   pricing: {
     title: 'Choose Your Plan',
-    subtitle: 'Experience the best features of textAnalytica AI: faster document processing and advanced format preservation',
+    subtitle: 'Experience the best features of IntroCard AI: faster document processing and advanced format preservation',
     monthly: 'Monthly subscription',
     yearly: 'Annual subscription (Save 20%)',
     highTier: {
